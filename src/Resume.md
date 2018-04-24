@@ -50,3 +50,24 @@ First software engineer at Dor, a company dedicated to helping retail succeed th
 ## Aertight Systems – Intern – Summer of 2011 and 2012 
 ## InstallNet – Software Intern – Summer of 2011
 
+# Skills / Personal Projects
+
+## Web Technologies: NodeJS, PostgreSQL, Heroku, AWS, Ruby (Rails), jQuery, ReactJS, HTML5, CSS3
+
+ - Created RndmLnk, a TinyURL generator that links to a list of random links. Built on NodeJS and React, hosted on Heroku.
+ - Built my personal website in Jekyll, hosted on Github pages.
+ - Developed several open source libraries for NodeJS, see Github projects for more details.
+
+## iOS / OSX Application Development: Objective C, Swift, React Native
+ - Worked at Apple creating an OSX application that tested server scalability.
+ - Developed an iOS app called Sassy Seven while participating in the RIT Apple iOS Hackathon.
+ - Contributed to gInbox, a desktop client for Google Inbox, written in Swift.
+ - Built several demo applications in React Native.
+
+## Android Application Development: Java
+
+ - Developed Hearsay, an Android Application, which keeps you up to date on breaking news stories. 
+ - Created Wampum, a twitter-like application that lets you post quotes from your friends.
+ - Developed Sassy Seven for Android, which required a number of custom UI animations.
+
+## Other Programming Languages: C, Python, C++, Markdown, bash Other Tools: Git, SVN, IntelliJ IDEA, Terminal

@@ -15,7 +15,7 @@ PANDOC_ARGS=\
 	-t html5
 
 default: html dir
-	cat Header.html $(DIST)/$(OUTPUT_NAME).html > $(DIST)/$(OUTPUT_NAME)Browser.html
+	cat $(SRC)/Header.html $(DIST)/$(OUTPUT_NAME).html > $(DIST)/$(OUTPUT_NAME)Browser.html
 	open $(DIST)/$(OUTPUT_NAME)Browser.html
 
 dir:

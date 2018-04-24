@@ -1,6 +1,6 @@
 # Header {.hidden .flex .row}
 
-![Face](face.png){#face}
+![Face](src/face.png){#face}
 
 ## Mike Lyons {#name .flex .column}
 ### Senior Software Engineer {.flex .column .filler}

@@ -71,3 +71,4 @@ First software engineer at Dor, a company dedicated to helping retail succeed th
  - Developed Sassy Seven for Android, which required a number of custom UI animations.
 
 ## Other Programming Languages: C, Python, C++, Markdown, bash Other Tools: Git, SVN, IntelliJ IDEA, Terminal
+

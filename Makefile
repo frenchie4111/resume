@@ -14,8 +14,7 @@ PANDOC_ARGS=\
 	--self-contained \
 	-t html5
 
-default: html dir
-	cat $(SRC)/Header.html $(DIST)/$(OUTPUT_NAME).html > $(DIST)/$(OUTPUT_NAME)Browser.html
+default: html_browser
 	open $(DIST)/$(OUTPUT_NAME)Browser.html
 
 dir:
@@ -24,6 +23,11 @@ dir:
 html: dir
 	$(PANDOC) $(PANDOC_ARGS) -o $(DIST)/$(OUTPUT_NAME).html $(SRC)/$(INPUT_FILE_NAME)
 
-pdf: html dir
+html_browser: html
+	cat $(SRC)/Header.html $(DIST)/$(OUTPUT_NAME).html > $(DIST)/$(OUTPUT_NAME)Browser.html
+
+pdf_make: html
 	$(NODE) make_pdf.js $(DIST)/$(OUTPUT_NAME).html $(DIST)/$(OUTPUT_NAME).pdf
+
+pdf: pdf_make
 	open $(DIST)/$(OUTPUT_NAME).pdf

@@ -1,4 +1,38 @@
-# Header {.hidden .flex .row}
+::::: {#header .page-section}
+
+You are viewing the HTML version of this resume, click [here](Resume.pdf) to see the pdf version
+
+:::::
+
+::::: {#cover-letter .page-section}
+
+To whom it may concern,
+
+
+My name is Michael Lyons, I am Senior Software Engineer and I would be great for your company 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra arcu ut erat vestibulum, 
+vitae placerat eros dignissim. Sed vestibulum in erat eget mattis. Phasellus eget tincidunt enim. 
+Duis blandit, enim vel vulputate maximus, sapien turpis porta nulla, ut sagittis mi dolor sit amet 
+urna. Morbi vestibulum, nibh ut volutpat pellentesque, justo ante volutpat massa, ornare feugiat 
+risus nunc quis eros. Sed efficitur sit amet purus eu porttitor. Nulla viverra ex gravida nisi 
+suscipit, eget posuere felis pretium.
+
+
+Morbi quis quam eleifend, accumsan nisl in, fringilla diam. Nullam at consequat urna, et placerat
+justo. Sed pulvinar, lorem et lacinia faucibus, purus libero sodales lacus, quis auctor urna velit 
+eget nibh. Nunc a viverra ligula. Quisque efficitur arcu at sagittis pharetra. Aliquam interdum 
+posuere porttitor. Aenean tempor mollis porta. Duis ullamcorper vitae urna at mattis. Etiam maximus 
+est nec facilisis ultricies. 
+
+
+Thank you for your time,
+Michael Lyons
+
+:::::
+
+::::: {#resume .page-section}
+
+::: {#resume-header .hidden .flex .row}
 
 ![Face](src/face.png){#face}
 
@@ -19,6 +53,8 @@ San Francisco
 mdl0394@gmail.com
 
 301-704-9099
+
+:::
 
 # Experience
 
@@ -72,3 +108,4 @@ First software engineer at Dor, a company dedicated to helping retail succeed th
 
 ## Other Programming Languages: C, Python, C++, Markdown, bash Other Tools: Git, SVN, IntelliJ IDEA, Terminal
 
+:::::

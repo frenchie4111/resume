@@ -3,8 +3,18 @@
 <style>
     body {
         width: 215mm;
-        height: 280mm;
         margin: 10px auto;
-        box-shadow: 0 0 3px 3px #ccc;
+    }
+
+    .page-section {
+        width: 100%;
+        max-height: 280mm;
+        box-shadow: 0 0 3px 3px #ececec;
+        transition: box-shadow .5s ease;
+    }
+
+    .page-section:hover {
+        box-shadow: 0 0 3px 3px #dbdbdb;
+        transition: box-shadow .5s ease;
     }
 </style>

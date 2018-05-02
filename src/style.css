@@ -1,13 +1,35 @@
+/* Print Settings */
+
 @page { 
     margin: 0;
 }
+
+@media print {
+    #header {
+        display: none !important;
+    }
+
+    .page-section {
+        page-break-after: always;
+    }
+}
+
+@media not print {
+    .page-section {
+        margin-bottom: 5mm;
+    }
+}
+
 @viewport {
     width: 215mm;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    padding: 1.6cm;
+}
+
+.page-section {
+    padding: 4mm 1.6cm 4mm 1.6cm;
 }
 
 /*
@@ -45,9 +67,28 @@ li {
 
 /*
  Header
+ */
+
+/*
+ cover letter
+ */
+
+#cover-letter p {
+    margin: 20px 0 0 0;
+}
+
+#cover-letter p:last-of-type {
+    margin-bottom: 20px;
+}
+/*
+ Resume
 */
 
-#header {
+#resume {
+    padding: 1.6cm;
+}
+
+#resume-header {
     margin: 10px;
 }
 
@@ -81,6 +122,7 @@ h1 {
     padding: 2mm;
     margin: 1mm 0;
     color: white;
+    box-sizing: border-box;
 }
 
 h2 {

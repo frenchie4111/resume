@@ -37,7 +37,7 @@ const printUsage = () => {
                 bottom: 0,
                 left: 0
             },
-            pageRanges: '1'
+            pageRanges: '1, 2'
         } );
 
     await browser.close();

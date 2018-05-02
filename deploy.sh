@@ -20,8 +20,9 @@ echo $OUTPUT_FILENAME_PDF
 
 make pdf_make html_browser
 
-mv dist/ResumeBrowser.html gh-pages/$OUTPUT_FILENAME_HTML
-mv dist/Resume.pdf gh-pages/$OUTPUT_FILENAME_PDF
+cp dist/Resume.pdf gh-pages/$OUTPUT_FILENAME_PDF
+cat dist/ResumeBrowser.html | sed -e "s/Resume.pdf/$(OUTPUT_FILENAME_PDF)/g"
+cp dist/ResumeBrowser.html gh-pages/$OUTPUT_FILENAME_HTML
 
 cd gh-pages
 git add .

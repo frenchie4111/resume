@@ -49,6 +49,6 @@ table {
 figcaption {
     display: none;
 }
-link:visited {
-	color: inherit;
-}
+
+a:visited{color:inherit}
+a:hover{color:inherit}

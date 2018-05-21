@@ -44,7 +44,7 @@ body {
     display: flex;
 }
 
-.column {
+.flex-column {
     flex-direction: column;
 }
 
@@ -63,6 +63,11 @@ ul {
 li {
     list-style: disc;
     list-style-position: outside;
+    padding: 1mm 0;
+}
+
+strong {
+    font-weight: bold;
 }
 
 /*
@@ -111,6 +116,10 @@ li {
 
 }
 
+.right {
+    text-align: right;
+}
+
 /*
  Body
 */
@@ -120,7 +129,7 @@ h1 {
     width: 100%;
     background-color: green;
     padding: 2mm;
-    margin: 1mm 0;
+    margin: 4mm 0;
     color: white;
     box-sizing: border-box;
 }
@@ -128,5 +137,9 @@ h1 {
 h2 {
     font-size: 14pt;
     font-weight: bold;
-    margin: 1mm 0;
+    margin: 2mm 0;
+}
+
+.job-description {
+    padding: 0.5mm 0;
 }

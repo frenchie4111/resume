@@ -12,11 +12,10 @@ PANDOC_ARGS=\
 	-c $(SRC)/style.css \
 	--section-divs \
 	--self-contained \
+	-f markdown+fenced_divs \
 	-t html5
 
-default: html_browser
-	open http://localhost:8000/$(OUTPUT_NAME)Browser.html
-	cd $(DIST) && python -m SimpleHTTPServer 8000
+default: html html_browser pdf_make
 
 dir:
 	mkdir -p $(DIST)
@@ -32,3 +31,7 @@ pdf_make: html
 
 pdf: pdf_make
 	open $(DIST)/$(OUTPUT_NAME).pdf
+
+watch: default
+	echo "open http://localhost:8000/$(OUTPUT_NAME)Browser.html"
+	nodemon -w src/ -x "/bin/bash build_and_serve.sh"

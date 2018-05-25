@@ -9,3 +9,24 @@ to support both an html and pdf version of your resume.
 https://resume.mikelyons.org/
 
 It is also intended to support per-company cover letters and resume versions.
+
+## Dependencies
+
+Install these on your system using your prefered package manager
+
+```
+pandoc
+
+```
+
+Install node packages
+
+```
+npm install
+```
+
+If you want to use `make watch` you will also need python and `nodemon`
+
+```
+npm install -g nodemon
+```

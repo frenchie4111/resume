@@ -45,7 +45,7 @@ mdl0394@gmail.com
 
 **First** software engineer at Dor, a retail analytics startup that helps retailers of
 all sizes make better staffing, marketing, and operations decisions based on their 
-customer traffic.
+customer traffic. I worked on many projects, including:
 
 :::
 

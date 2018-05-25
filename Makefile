@@ -15,7 +15,8 @@ PANDOC_ARGS=\
 	-t html5
 
 default: html_browser
-	open $(DIST)/$(OUTPUT_NAME)Browser.html
+	open http://localhost:8000/$(OUTPUT_NAME)Browser.html
+	cd $(DIST) && python -m SimpleHTTPServer 8000
 
 dir:
 	mkdir -p $(DIST)

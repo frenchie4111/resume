@@ -1,6 +1,6 @@
 ::::: {#header .page-section}
 
-You are viewing the HTML version of this resume, click [here](Resume.pdf) to see the pdf version
+You are viewing the HTML version of this resume, click [here](Resume.pdf) to for the pdf version
 
 :::::
 

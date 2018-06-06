@@ -4,50 +4,59 @@ You are viewing the HTML version of this resume, click [here](Resume.pdf) to see
 
 :::::
 
-::::: {#resume .page-section}
+:::::::::::: {#resume .page-section}
 
 ::: {#resume-header .flex .row}
 
+:::: {.flex .row #name}
+
 ![Face](src/face.png){#face}
 
-:::: {.flex .flex-column .filler #name}
+::::: {}
 
 ## Mike Lyons
 
 Senior Software Engineer
 
-::::
+:::::
 
+::::
 :::: {.flex .flex-column .filler #personal-info}
 
-301-704-9099
+**Phone | ** 301-704-9099
 
-mdl0394@gmail.com
+**Email | ** mdl0394@gmail.com
 
-San Francisco
+**City | ** San Francisco
 
-[https://MikeLyons.org/](https://MikeLyons.org/)<br/>
-[https://github.com/frenchie4111](https://github.com/frenchie4111)
+**Site | ** [https://MikeLyons.org/](https://MikeLyons.org/)
+
+**Github | ** [https://github.com/frenchie4111](https://github.com/frenchie4111)
 
 
 ::::
+
 
 :::
 
 :::::::: {#experience}
 
+:::: { .flex .row }
+::::: {.left-column}
 # Experience 
+:::::
+::::: {.right-column .bar-container}
+:::::: { .bar }
+::::::
+:::::
+::::
 
 :::: {.flex .row}
 ::::: {.left-column}
 
-## Dor Technologies
+## Dor Technologies - *Senior Software Engineer*
 
-Senior Software Engineer
-
-San Francisco
-
-2015 - Now
+San Francisco | 2015 - Now
 
 :::::
 ::::: {.right-column}
@@ -68,13 +77,9 @@ on battery powered IoT devices to track customer foot traffic
 :::: {.flex .row}
 ::::: {.left-column}
 
-## CareerLabs
+## CareerLabs - *Lead Software Engineer* 
 
-Lead Software Engineer
-
-San Francisco
-
-2015 - 2016
+San Francisco | 2015 - 2016
 
 :::::
 ::::: {.right-column}
@@ -89,13 +94,9 @@ and employer rating platform
 :::: { .flex .row }
 ::::: { .left-column }
 
-## Mark One / MyVessyl
+## Mark One / MyVessyl *- Principal Backend Engineer*
 
-Principal Backend / Data Engineer
-
-San Francisco
-
-2014 – 2015
+San Francisco | 2014 – 2015
 
 :::::
 ::::: { .right-column }
@@ -112,13 +113,9 @@ San Francisco
 :::: { .flex .row }
 ::::: { .left-column }
 
-## Apple
+## Apple - *Software Engineering Co-op*
 
-Software Engineering Co-op
-
-Cupertino
-
-2013 - 2014
+Cupertino | 2013 - 2014
 
 :::::
 ::::: { .right-column }
@@ -126,8 +123,7 @@ Cupertino
  - Developed simulator tool in Objective C in order to improve the **scalability** of an 
  OSX Server Application.
  - Created **fullstack** web application in NodeJS / AngularJS that processes hundreds 
- of thousand of bugs in order to produce actionable information for Project Managers 
- and Developers.
+ of thousand of bugs in order to produce actionable insights for PMs.
 
 :::::
 ::::
@@ -135,29 +131,9 @@ Cupertino
 :::: { .flex .row }
 ::::: { .left-column }
 
-## RIT
+## InstallNet IT Solutions *- Intern*
 
-Lab Technician – Rochester – 2012 School Year
-
-:::::
-::::
-
-:::: { .flex .row }
-::::: { .left-column }
-
-## InstallNet
-
-Aertight Systems – Intern – Summer of 2011 and 2012
-
-:::::
-::::
-
-:::: { .flex .row }
-::::: { .left-column }
-
-## InstallNet
-
-Software Intern – Summer of 2011
+Annapolis, MD | Summer of 2011 and 2012
 
 :::::
 ::::
@@ -166,16 +142,41 @@ Software Intern – Summer of 2011
 ::::::::
 :::::::: { #skills }
 
+:::: { .flex .row }
+::::: {.left-column}
 # Skills 
+:::::
+::::: {.right-column .bar-container}
+:::::: { .bar }
+::::::
+:::::
+::::
+
+:::: { .flex .row }
+::::: { .left-column }
 
 ## Software Engineering
 
-AWS, NodeJS, SQL, NoSQL, Heroku, React, HTML5, React, Angular, C++, 
+:::::
+::::: { .right-column }
+
+NodeJS, AWS, SQL, NoSQL, Heroku, React, HTML5, Angular, Java, Objective C, Python
+
+:::::
+::::
+
+:::: { .flex .row }
+::::: { .left-column }
 
 ## Data Science
 
+:::::
+::::: { .right-column }
+
 Python, Numpy, Pandas, Tensorflow, Keras, C
 
+:::::
+::::
 
 ::::::::
-:::::
+::::::::::::

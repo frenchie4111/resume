@@ -63,7 +63,7 @@ p {
 
 .row {
     flex-direction: row;
-    margin-top: 15pt;
+    margin-top: 20pt;
 }
 
 .hidden>h1, .hidden>h2, .hidden>h3, .hidden>h4, .hidden>h5 {
@@ -192,7 +192,6 @@ h2 {
     font-size: 12pt;
     font-weight: bold;
     padding-bottom: 4pt;
-    padding-top: 7pt;
 }
 
 p, li {

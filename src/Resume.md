@@ -59,8 +59,8 @@ IoT foot traffic sensors and exposes the data as a **REST API** to the Dor appli
 Written in NodeJS, hosted on AWS, Docker
  - Built a **React** frontend application that displays analytics to business owners,
 empowering them to make data driven business decisions
- - Designed a low power **computer vision** algorithm that runs on battery powered 
-IoT devices to track customer foot traffic
+ - Designed and implemented a low power **computer vision** algorithm that runs
+on battery powered IoT devices to track customer foot traffic
 
 :::::
 ::::
@@ -79,8 +79,9 @@ San Francisco
 :::::
 ::::: {.right-column}
 
- - Lead CareerLabs’ team of software engineers to build a scalable and future-proof job search platform
- - Launched [https://careerlabs.com](https://careerlabs.com) in October 2015
+ - Lead CareerLabs’ team of software engineers to build a **scalable** and job search,
+and employer rating platform
+ - **Launched** [https://careerlabs.com](https://careerlabs.com) in October 2015
 
 :::::
 ::::
@@ -99,10 +100,11 @@ San Francisco
 :::::
 ::::: { .right-column }
 
- - Created a scalable REST API in NodeJS that runs on the Heroku platform
- - Built a backend data pipeline that processes user data to provide meaningful 
+ - Created a scalable **REST API** in NodeJS that runs on the Heroku platform
+ - Built a backend **data pipeline** that processes user data to provide **meaningful**
  insights into their health patterns.
- - Worked with iOS and Android developers to create an API that allows for seamless data syncing across mobile devices.
+ - Worked with **iOS** and **Android** developers to create an API that allows for seamless
+ data syncing across mobile devices.
 
 :::::
 ::::

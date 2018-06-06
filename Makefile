@@ -20,7 +20,10 @@ default: html html_browser pdf_make
 dir:
 	mkdir -p $(DIST)
 
-html: dir
+mv_scripts: dir
+	cp $(SRC)/*.js $(DIST)
+
+html: dir mv_scripts
 	$(PANDOC) $(PANDOC_ARGS) -o $(DIST)/$(OUTPUT_NAME).html $(SRC)/$(INPUT_FILE_NAME)
 
 html_browser: html
@@ -34,4 +37,4 @@ pdf: pdf_make
 
 watch: default
 	echo "open http://localhost:8000/$(OUTPUT_NAME)Browser.html"
-	nodemon -w src/ -e css,md,html -x "/bin/bash build_and_serve.sh"
+	nodemon -w src/ -e css,md,html,js -x "/bin/bash build_and_serve.sh"

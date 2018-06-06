@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+.changing-color {
+    background-color: #226A31;
+    color: #226A31;
+    transition: all 5s ease-in-out;
+}
+
 @media print {
     body {
         -webkit-print-color-adjust: exact;
@@ -101,7 +107,6 @@ strong {
 }
 
 .bar {
-    background-color: #226A31 !important;
     -webkit-print-color-adjust: exact;
     width: 100%;
     height: 5px;
@@ -138,7 +143,7 @@ strong {
 #face {
     width: 55pt;
     height: 55pt;
-    padding-right: 20pt;
+    margin-right: 20pt;
 }
 
 #name {
@@ -211,13 +216,14 @@ h1 {
     font-weight: bold;
     font-size: 15pt;
     width: 100%;
-    color: #106e38ff;
     margin: 0 0;
     box-sizing: border-box;
-    text-transform: uppercase
+    text-transform: uppercase;
+    background-color: transparent !important;
 }
 
 h2 {
+    background-color: none;
     font-size: 11pt;
     font-weight: bold;
     padding-bottom: 4pt;

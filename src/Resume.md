@@ -10,7 +10,7 @@ You are viewing the HTML version of this resume, click [here](Resume.pdf) to see
 
 :::: {.flex .row #name}
 
-![Face](src/face.png){#face}
+![Face](src/face-transparent.png){#face .changing-color}
 
 ::::: {}
 
@@ -43,10 +43,10 @@ Senior Software Engineer
 
 :::: { .flex .row }
 ::::: {.left-column}
-# Experience 
+# Experience {.changing-color}
 :::::
 ::::: {.right-column .bar-container}
-:::::: { .bar }
+:::::: { .bar .changing-color }
 ::::::
 :::::
 ::::
@@ -144,10 +144,10 @@ Annapolis, MD | Summer of 2011 and 2012
 
 :::: { .flex .row }
 ::::: {.left-column}
-# Skills 
+# Skills {.changing-color}
 :::::
 ::::: {.right-column .bar-container}
-:::::: { .bar }
+:::::: { .bar .changing-color }
 ::::::
 :::::
 ::::

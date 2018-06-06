@@ -79,7 +79,7 @@ San Francisco
 :::::
 ::::: {.right-column}
 
- - Lead CareerLabs’ team of software engineers to build a **scalable** and job search,
+ - Lead CareerLabs’ team of software engineers to build a **scalable** and job search
 and employer rating platform
  - **Launched** [https://careerlabs.com](https://careerlabs.com) in October 2015
 

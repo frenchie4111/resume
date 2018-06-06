@@ -27,10 +27,12 @@ const printUsage = () => {
     await page
         .pdf( { 
             path: output_file, 
-            format: 'letter',
+            // format: 'letter',
+            width: '8.5in',
             printBackground: true,
             // TODO: Figure out how to not have a random scale factor here
-            scale: 0.86,
+            // scale: 0.86,
+            scale: 1,
             margin: {
                 top: 0,
                 right: 0,

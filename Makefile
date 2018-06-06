@@ -34,4 +34,4 @@ pdf: pdf_make
 
 watch: default
 	echo "open http://localhost:8000/$(OUTPUT_NAME)Browser.html"
-	nodemon -w src/ -x "/bin/bash build_and_serve.sh"
+	nodemon -w src/ -e css,md,html -x "/bin/bash build_and_serve.sh"

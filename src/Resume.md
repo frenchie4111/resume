@@ -94,7 +94,7 @@ and employer rating platform
 :::: { .flex .row }
 ::::: { .left-column }
 
-## Mark One / MyVessyl *- Principal Backend Engineer*
+## Mark One / MyVessyl *- Principal Software Engineer*
 
 San Francisco | 2014 – 2015
 

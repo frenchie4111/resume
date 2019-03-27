@@ -16,7 +16,7 @@ You are viewing the HTML version of this resume, click [here](Resume.pdf) to for
 
 ## Mike Lyons
 
-Senior Software Engineer
+Senior Software <br/> Engineer
 
 :::::
 
@@ -58,18 +58,22 @@ Senior Software Engineer
 
 San Francisco | 2015 - Now
 
+:::::: {.left-column-more}
+
+Founding Engineer
+
+::::::
+
 :::::
 ::::: {.right-column}
 
- - **First** software engineer at Dor, responsible for the initial design and implementation
-of all of the software systems that power Dor.
- - Built a **fullstack** application that gathers data from thousands of deployed
-IoT foot traffic sensors and exposes the data as a **REST API** to the Dor application.
-Written in NodeJS, hosted on AWS, Docker
- - Built a **React** frontend application that displays analytics to business owners,
-empowering them to make data driven business decisions
- - Designed and implemented a low power **computer vision** algorithm that runs
+ - Founding engineer, responsible for the initial design and implementation of the software systems that power Dor.
+- Designed and implemented a low power **computer vision** algorithm that runs
 on battery powered IoT devices to track customer foot traffic
+ - Designed and implemented **data pipeline** that processes millions of events 
+ to analyze and improve the pefomance of thousands of Machine Learning Enabled devices.
+ - Built a **fullstack** application that gathers data from thousands of foot traffic sensors in order to power the Dor application. Written in NodeJS, hosted on AWS, Docker
+ - Built a **React** frontend application that displays analytics to business owners, empowering them to make data driven business decisions
 
 :::::
 ::::
@@ -77,7 +81,7 @@ on battery powered IoT devices to track customer foot traffic
 :::: {.flex .row}
 ::::: {.left-column}
 
-## CareerLabs - *Lead Software Engineer* 
+## CareerLabs - *Technical Cofounder* 
 
 San Francisco | 2015 - 2016
 
@@ -85,8 +89,7 @@ San Francisco | 2015 - 2016
 ::::: {.right-column}
 
  - Lead CareerLabs’ team of software engineers to build a **scalable** and job search
-and employer rating platform
- - **Launched** [https://careerlabs.com](https://careerlabs.com) in October 2015
+and employer rating platform. **Launched** [https://careerlabs.com](https://careerlabs.com) in October 2015
 
 :::::
 ::::
@@ -94,18 +97,15 @@ and employer rating platform
 :::: { .flex .row }
 ::::: { .left-column }
 
-## Mark One / MyVessyl *- Principal Software Engineer*
+## Mark One / MyVessyl *- Software Engineer*
 
 San Francisco | 2014 – 2015
 
 :::::
 ::::: { .right-column }
 
- - Created a scalable **REST API** in NodeJS that runs on the Heroku platform
- - Built a backend **data pipeline** that processes user data to provide **meaningful**
- insights into their health patterns.
- - Worked with **iOS** and **Android** developers to create an API that allows for seamless
- data syncing across mobile devices.
+ - Created a scalable **REST API** in NodeJS that runs on Heroku
+ - Built a **data pipeline** that processes user data to provide meaningful insights into their health patterns.
 
 :::::
 ::::
@@ -123,7 +123,7 @@ Cupertino | 2013 - 2014
  - Developed simulator tool in Objective C in order to improve the **scalability** of an 
  OSX Server Application.
  - Created **fullstack** web application in NodeJS / AngularJS that processes hundreds 
- of thousand of bugs in order to produce actionable insights for PMs.
+ of thousand of tickets in order to produce actionable insights.
 
 :::::
 ::::
@@ -133,7 +133,7 @@ Cupertino | 2013 - 2014
 
 ## InstallNet IT Solutions *- Intern*
 
-Annapolis, MD | Summer of 2011 and 2012
+Annapolis, MD | 2011 - 2012
 
 :::::
 ::::

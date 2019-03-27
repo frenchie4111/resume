@@ -87,6 +87,7 @@ ul {
 
 li {
     list-style: disc;
+    list-style-type: square;
     list-style-position: outside;
     /* padding: 2pt 0; */
 }
@@ -165,6 +166,7 @@ strong {
 
 #name p {
     font-size: 12pt;
+    line-height: 1.2;
 }
 
 #right_section {
@@ -176,6 +178,7 @@ strong {
 }
 
 #personal-info {
+    flex: 1.5;
     justify-content: top;
     text-align: top;
     font-size: 1em;
@@ -213,7 +216,8 @@ strong {
 
 #experience .right-column li {
     /* color: #333; */
-    line-height: 1.25;
+    line-height: 1.4;
+    margin-bottom: 7px;
 }
 
 h1 {
@@ -254,7 +258,7 @@ h2 em {
 }
 
 .right-column {
-    flex: 1;
+    flex: 1.5;
 }
 
 #skills h2 {

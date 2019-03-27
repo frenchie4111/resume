@@ -1,0 +1,279 @@
+/* Print Settings */
+
+@page { 
+    margin: 0;
+}
+
+.changing-color {
+    background-color: #226A31;
+    color: #226A31;
+    transition: all 5s ease-in-out;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    #header {
+        display: none !important;
+    }
+
+    .page-section {
+        page-break-after: always;
+    }
+}
+
+@media not print {
+    .page-section {
+        margin-bottom: 5mm;
+    }
+}
+
+@viewport {
+    width: 215mm;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+}
+
+.page-section {
+    padding: 4mm 1.6cm 4mm 1.6cm;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 10pt;
+    /* font-size: 1em; */
+}
+
+a:link {
+    color: inherit;
+}
+
+/*
+ Generics
+*/
+
+.filler {
+    flex: 1;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+    margin-top: 20pt;
+}
+
+.hidden>h1, .hidden>h2, .hidden>h3, .hidden>h4, .hidden>h5 {
+    display: none;
+}
+
+ul {
+    padding-left: 15pt;
+}
+
+li {
+    list-style: disc;
+    list-style-type: square;
+    list-style-position: outside;
+    /* padding: 2pt 0; */
+}
+
+li:first-child {
+    padding-top: 0;
+}
+
+li:last-child {
+    padding-bottom: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    -webkit-print-color-adjust: exact;
+    width: 100%;
+    height: 5px;
+}
+
+/*
+ Header
+ */
+
+/*
+ cover letter
+ */
+
+#cover-letter p {
+    margin: 20px 0 0 0;
+}
+
+#cover-letter p:last-of-type {
+    margin-bottom: 20px;
+}
+/*
+ Resume
+*/
+
+#resume {
+    padding: 1.6cm;
+}
+
+#resume-header {
+    margin-top: 0px;
+    justify-content: top;
+}
+
+#face {
+    width: 55pt;
+    height: 55pt;
+    margin-right: 20pt;
+}
+
+#name {
+    flex: 1;
+    justify-content: start;
+    white-space: nowrap;
+    margin-top: 0;
+}
+
+#name h2 {
+    font-size: 18pt;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#name p {
+    font-size: 12pt;
+    line-height: 1.2;
+}
+
+#right_section {
+
+}
+
+.right {
+    text-align: right;
+}
+
+#personal-info {
+    flex: 1.5;
+    justify-content: top;
+    text-align: top;
+    font-size: 1em;
+    white-space: nowrap;
+    font-size: 11pt;
+    text-align: left;
+    color: black;
+}
+
+#personal-info p {
+    margin-bottom: 5pt;
+    color: #231f20ff;
+}
+
+#personal-info p:last-of-type {
+    margin-bottom: 0;
+}
+
+/*
+ Body
+*/
+
+#experience {
+
+}
+
+#experience .left-column p {
+    line-height: 1.2;
+    font-size: 11pt;
+}
+
+#experience .right-column p { /* Job Description */
+    padding-bottom: 4pt;
+}
+
+#experience .right-column li {
+    /* color: #333; */
+    line-height: 1.4;
+    margin-bottom: 7px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 15pt;
+    width: 100%;
+    margin: 0 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    background-color: transparent !important;
+}
+
+h2 {
+    background-color: none;
+    font-size: 11pt;
+    font-weight: bold;
+    padding-bottom: 4pt;
+    letter-spacing: -.5pt;
+}
+
+h2 em {
+    letter-spacing: -.5pt;
+    font-weight: normal;
+}
+
+.right-column p, .right-column li {
+    font-size: 10pt;
+    /* color: black; */
+    color: #727273ff;
+}
+
+.left-column p {
+    color: black;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 1.5;
+}
+
+#skills h2 {
+    padding-top: 10pt;
+}
+
+#skills h2:first-of-type {
+    padding-top: 0;
+}
+
+#skills h2:first-of-type {
+    padding-top: 0;
+}
+
+#skills .right-column p {
+    /* color: #333; */
+    line-height: 1.25;
+}

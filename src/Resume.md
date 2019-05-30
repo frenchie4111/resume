@@ -54,7 +54,7 @@ Senior Software <br/> Engineer
 :::: {.flex .row}
 ::::: {.left-column}
 
-## Dor Technologies - *Senior Software Engineer*
+## Dor Technologies - *Senior Software Engineer / Data Scientist*
 
 San Francisco | 2015 - Now
 

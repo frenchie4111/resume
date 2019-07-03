@@ -54,13 +54,13 @@ Senior Software <br/> Engineer
 :::: {.flex .row}
 ::::: {.left-column}
 
-## Dor Technologies - *Senior Software Engineer / Data Scientist*
+## Dor Technologies 
+
+Senior Engineer & Data Scientist
 
 San Francisco | 2015 - Now
 
 :::::: {.left-column-more}
-
-Founding Engineer
 
 ::::::
 
@@ -81,15 +81,16 @@ on battery powered IoT devices to track customer foot traffic
 :::: {.flex .row}
 ::::: {.left-column}
 
-## CareerLabs - *Technical Cofounder* 
+## CareerLabs
+
+Technical Cofounder
 
 San Francisco | 2015 - 2016
 
 :::::
 ::::: {.right-column}
 
- - Lead CareerLabs’ team of software engineers to build a **scalable** and job search
-and employer rating platform. **Launched** [https://careerlabs.com](https://careerlabs.com) in October 2015
+ - Lead CareerLabs’ team of engineers to build a scalable and job search and employer rating platform. Launched [https://careerlabs.com](https://careerlabs.com) in 2015 (Closed 2017)
 
 :::::
 ::::
@@ -97,7 +98,9 @@ and employer rating platform. **Launched** [https://careerlabs.com](https://care
 :::: { .flex .row }
 ::::: { .left-column }
 
-## Mark One / MyVessyl *- Software Engineer*
+## Mark One / MyVessyl 
+
+Software Engineer
 
 San Francisco | 2014 – 2015
 
@@ -113,7 +116,9 @@ San Francisco | 2014 – 2015
 :::: { .flex .row }
 ::::: { .left-column }
 
-## Apple - *Software Engineering Co-op*
+## Apple
+
+Software Engineering Co-op
 
 Cupertino | 2013 - 2014
 
@@ -131,7 +136,7 @@ Cupertino | 2013 - 2014
 :::: { .flex .row }
 ::::: { .left-column }
 
-## InstallNet IT Solutions *- Intern*
+## InstallNet IT Solutions 
 
 Annapolis, MD | 2011 - 2012
 

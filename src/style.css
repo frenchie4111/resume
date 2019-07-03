@@ -22,6 +22,10 @@
     .page-section {
         page-break-after: always;
     }
+
+    .page-section {
+        padding: 4mm 1cm 4mm 1cm;
+    }
 }
 
 @media not print {

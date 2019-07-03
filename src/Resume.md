@@ -71,7 +71,7 @@ Founding Engineer
 - Designed and implemented a low power **computer vision** algorithm that runs
 on battery powered IoT devices to track customer foot traffic
  - Designed and implemented **data pipeline** that processes millions of events 
- to analyze and improve the pefomance of thousands of Machine Learning Enabled devices.
+ to analyze and improve the perfomance of thousands of Machine Learning Enabled devices.
  - Built a **fullstack** application that gathers data from thousands of foot traffic sensors in order to power the Dor application. Written in NodeJS, hosted on AWS, Docker
  - Built a **React** frontend application that displays analytics to business owners, empowering them to make data driven business decisions
 

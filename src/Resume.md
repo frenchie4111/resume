@@ -16,7 +16,7 @@ You are viewing the HTML version of this resume, click [here](Resume.pdf) to for
 
 ## Mike Lyons
 
-Senior Software <br/> Engineer
+Lead Systems <br/> Architect
 
 :::::
 
@@ -56,7 +56,7 @@ Senior Software <br/> Engineer
 
 ## Dor Technologies 
 
-Senior Engineer & Data Scientist
+Lead Systems Architect
 
 San Francisco | 2015 - Now
 

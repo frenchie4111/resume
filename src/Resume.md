@@ -16,7 +16,7 @@ You are viewing the HTML version of this resume, click [here](Resume.pdf) to for
 
 ## Mike Lyons
 
-Engineer, Machine<br/>Tutor
+Engineer
 
 :::::
 
@@ -46,11 +46,17 @@ Engineer, Machine<br/>Tutor
 :::::
 ::::
 
-Tesla,
+Neuralink,
 
-My name is Mike, I am an engineer who has been working on machine learning products and systems for around 6 years now. 
+I am a lifelong engineer who loves working on hard problems with smart people.
+I've spent a majority of my career working on ML enabled hardware products, and 
+I am passionate about how AI will allow machines to extend the capabilities of
+humanity.
 
-I need to write the rest of this cover letter.
+<i>probably need some talk about my qualifications here</i>
+
+I think what you are building at Neuralink is an imperative technological milestone,
+and I would love to be a part of what you are doing.
 
 Mike Lyons
 
@@ -68,7 +74,7 @@ Mike Lyons
 
 ## Mike Lyons
 
-Engineer, Machine<br/>Tutor
+Engineer
 
 :::::
 
@@ -108,7 +114,7 @@ Engineer, Machine<br/>Tutor
 
 ## Dor Technologies 
 
-Lead Systems Architect, Head of Machine Learning
+Lead Systems Architect
 
 San Francisco | 2015 - Now
 
@@ -120,9 +126,9 @@ San Francisco | 2015 - Now
 ::::: {.right-column}
 
  - Founding engineer, responsible for the a large portion of the design and implementation of the machine learning and software systems that power Dor.
- - Lead the design and implementation of an **automated data pipeline** that allows a small team of engineers to process millions of events and improve thousands of edge machine learning devices.
- - Designed and implemented a low power, neural net driven, **computer vision** algorithm that runs on battery powered IoT devices to track customer foot traffic
- - Built a **fullstack** application that gathers data from thousands of foot traffic sensors in order to power the Dor application. Written in NodeJS, hosted on AWS, Docker
+ - Shipped a low power, neural net driven, device that runs on battery powered IoT devices to track customer foot traffic.
+ - Lead the design and implementation of the algorithm that runs the device and the automated data pipeline that allows a small team of engineers to process millions of events and improve thousands of edge machine learning devices.
+ - Built a fullstack application that gathers data from thousands of foot traffic sensors in order to power the Dor application. Written in NodeJS, hosted on AWS, Docker
 
 :::::
 ::::
@@ -173,9 +179,9 @@ Cupertino | 2013 - 2014
 :::::
 ::::: { .right-column }
 
- - Developed simulator tool in Objective C in order to improve the **scalability** of an 
+ - Developed simulator tool in Objective C in order to improve the scalability of an 
  OSX Server Application.
- - Created **fullstack** web application in NodeJS / AngularJS that processes hundreds 
+ - Created fullstack web application in NodeJS / AngularJS that processes hundreds 
  of thousand of tickets in order to produce actionable insights.
 
 :::::
@@ -226,7 +232,7 @@ Python, Numpy, Pandas, Tensorflow, Keras, C
 :::::
 ::::: { .right-column }
 
-Docker, AWS, SQL, NoSQL, Python, NodeJS
+Docker, AWS, SQL, NoSQL, Python, NodeJS, Whatever gets the job done
 
 :::::
 ::::

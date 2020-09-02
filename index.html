@@ -89,9 +89,10 @@ a:hover{color:inherit}
   <style type="text/css">
 @page { margin: 0;
 }
+
 .changing-color {
-background-color: #226A31;
-color: #226A31;
+background-color: #0a2437;
+color: #0a2437;
 transition: all 5s ease-in-out;
 }
 @media print {
@@ -109,6 +110,18 @@ padding: 4mm 1cm 4mm 1cm;
 }
 }
 @media not print {
+#cover-letter #resume-header {
+display: none;
+}
+#cover-letter .flex {
+display: none;
+}
+#cover-letter .bar-container {
+display: none;
+}
+#cover-letter {
+padding: 0;
+}
 .page-section {
 margin-bottom: 5mm;
 }
@@ -150,6 +163,12 @@ margin-top: 20pt;
 .hidden>h1, .hidden>h2, .hidden>h3, .hidden>h4, .hidden>h5 {
 display: none;
 }
+h1.changing-color {
+background-color: white;
+}
+#white_heading {
+background-color: white;
+}
 ul {
 padding-left: 15pt;
 }
@@ -158,6 +177,9 @@ list-style: disc;
 list-style-type: square;
 list-style-position: outside;
 
+}
+li::marker {
+font-size: 10px;
 }
 li:first-child {
 padding-top: 0;
@@ -181,8 +203,13 @@ height: 5px;
 }
 
 
-#cover-letter p {
+#cover-letter {
+padding: 1.6cm;
+}
+#cover-letter p, #cover-letter li {
 margin: 20px 0 0 0;
+line-height: 1.4;
+font-size: 10pt;
 }
 #cover-letter p:last-of-type {
 margin-bottom: 20px;
@@ -194,6 +221,9 @@ padding: 1.6cm;
 #resume-header {
 margin-top: 0px;
 justify-content: top;
+}
+#resume-header p {
+margin-top: 0px;
 }
 #face {
 width: 55pt;
@@ -232,6 +262,7 @@ color: black;
 }
 #personal-info p {
 margin-bottom: 5pt;
+margin-top: 0;
 color: #231f20ff;
 }
 #personal-info p:last-of-type {

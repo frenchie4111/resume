@@ -4,9 +4,15 @@
     margin: 0;
 }
 
-.changing-color {
+/* .changing-color {
     background-color: #226A31;
     color: #226A31;
+    transition: all 5s ease-in-out;
+} */
+
+.changing-color {
+    background-color: #0a2437;
+    color: #0a2437;
     transition: all 5s ease-in-out;
 }
 
@@ -29,6 +35,22 @@
 }
 
 @media not print {
+    #cover-letter #resume-header {
+        display: none;
+    }
+
+    #cover-letter .flex {
+        display: none;
+    }
+
+    #cover-letter .bar-container {
+        display: none;
+    }
+
+    #cover-letter {
+        padding: 0;
+    }
+
     .page-section {
         margin-bottom: 5mm;
     }
@@ -85,6 +107,14 @@ a:link {
     display: none;
 }
 
+h1.changing-color {
+    background-color: white;
+}
+
+#white_heading {
+    background-color: white;
+}
+
 ul {
     padding-left: 15pt;
 }
@@ -94,6 +124,10 @@ li {
     list-style-type: square;
     list-style-position: outside;
     /* padding: 2pt 0; */
+}
+
+li::marker {
+    font-size: 10px;
 }
 
 li:first-child {
@@ -129,8 +163,14 @@ strong {
  cover letter
  */
 
-#cover-letter p {
+#cover-letter {
+    padding: 1.6cm;
+}
+
+#cover-letter p, #cover-letter li {
     margin: 20px 0 0 0;
+    line-height: 1.4;
+    font-size: 10pt;
 }
 
 #cover-letter p:last-of-type {
@@ -147,6 +187,9 @@ strong {
 #resume-header {
     margin-top: 0px;
     justify-content: top;
+}
+#resume-header p {
+    margin-top: 0px;
 }
 
 #face {
@@ -194,6 +237,7 @@ strong {
 
 #personal-info p {
     margin-bottom: 5pt;
+    margin-top: 0;
     color: #231f20ff;
 }
 

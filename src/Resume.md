@@ -16,7 +16,7 @@ You are viewing the HTML version of this resume, click [here](Resume.pdf) to for
 
 ## Mike Lyons
 
-Lead Systems <br/> Architect
+Engineer
 
 :::::
 
@@ -43,7 +43,7 @@ Lead Systems <br/> Architect
 
 :::: { .flex .row }
 ::::: {.left-column}
-# Experience {.changing-color}
+# Experience {#white_heading .changing-color}
 :::::
 ::::: {.right-column .bar-container}
 :::::: { .bar .changing-color }
@@ -67,13 +67,10 @@ San Francisco | 2015 - Now
 :::::
 ::::: {.right-column}
 
- - Founding engineer, responsible for the initial design and implementation of the software systems that power Dor.
-- Designed and implemented a low power **computer vision** algorithm that runs
-on battery powered IoT devices to track customer foot traffic
- - Designed and implemented **data pipeline** that processes millions of events 
- to analyze and improve the perfomance of thousands of Machine Learning Enabled devices.
- - Built a **fullstack** application that gathers data from thousands of foot traffic sensors in order to power the Dor application. Written in NodeJS, hosted on AWS, Docker
- - Built a **React** frontend application that displays analytics to business owners, empowering them to make data driven business decisions
+ - Founding engineer, responsible for the a large portion of the design and implementation of the machine learning and software systems that power Dor.
+ - Shipped a battery powered, neural net driven, IoT device that tracks customer foot traffic.
+ - Lead the design and implementation of the automated data pipeline that allowed a tiny team of engineers to process millions of events and improve thousands of edge machine learning devices.
+ - Built a fullstack application that gathers data from thousands of foot traffic sensors in order to power the Dor analytics platform and provide actionable insight for Dor's customers.
 
 :::::
 ::::
@@ -107,8 +104,7 @@ San Francisco | 2014 – 2015
 :::::
 ::::: { .right-column }
 
- - Created a scalable **REST API** in NodeJS that runs on Heroku
- - Built a **data pipeline** that processes user data to provide meaningful insights into their health patterns.
+ - Designed and built the backend infrastructure that supported an AI driven consumer hardware device.
 
 :::::
 ::::
@@ -125,9 +121,9 @@ Cupertino | 2013 - 2014
 :::::
 ::::: { .right-column }
 
- - Developed simulator tool in Objective C in order to improve the **scalability** of an 
+ - Developed simulator tool in Objective C in order to improve the scalability of an 
  OSX Server Application.
- - Created **fullstack** web application in NodeJS / AngularJS that processes hundreds 
+ - Created fullstack web application in NodeJS / AngularJS that processes hundreds 
  of thousand of tickets in order to produce actionable insights.
 
 :::::
@@ -149,11 +145,24 @@ Annapolis, MD | 2011 - 2012
 
 :::: { .flex .row }
 ::::: {.left-column}
-# Skills {.changing-color}
+# Skills {#white_heading .changing-color}
 :::::
 ::::: {.right-column .bar-container}
 :::::: { .bar .changing-color }
 ::::::
+:::::
+::::
+
+:::: { .flex .row }
+::::: { .left-column }
+
+## Machine Learning
+
+:::::
+::::: { .right-column }
+
+Python, Numpy, Pandas, Tensorflow, Keras, C
+
 :::::
 ::::
 
@@ -165,20 +174,7 @@ Annapolis, MD | 2011 - 2012
 :::::
 ::::: { .right-column }
 
-NodeJS, AWS, SQL, NoSQL, Heroku, React, HTML5, Angular, Java, Objective C, Python
-
-:::::
-::::
-
-:::: { .flex .row }
-::::: { .left-column }
-
-## Data Science
-
-:::::
-::::: { .right-column }
-
-Python, Numpy, Pandas, Tensorflow, Keras, C
+Docker, AWS, SQL, NoSQL, Python, NodeJS, Whatever gets the job done
 
 :::::
 ::::

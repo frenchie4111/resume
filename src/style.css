@@ -10,6 +10,10 @@
     transition: all 5s ease-in-out;
 } */
 
+h1.changing-color {
+    background-color: white !important;
+}
+
 .changing-color {
     background-color: #0a2437;
     color: #0a2437;

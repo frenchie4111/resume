@@ -67,7 +67,7 @@ San Francisco | 2015 - Now
 :::::
 ::::: {.right-column}
 
- - Founding engineer, responsible for the a large portion of the design and implementation of the machine learning and software systems that power Dor.
+ - Founding engineer, responsible for the design and implementation of the machine learning and software systems that power Dor.
  - Shipped a battery powered, neural net driven, IoT device that tracks customer foot traffic.
  - Lead the design and implementation of the automated data pipeline that allowed a tiny team of engineers to process millions of events and improve thousands of edge machine learning devices.
  - Built a fullstack application that gathers data from thousands of foot traffic sensors in order to power the Dor analytics platform and provide actionable insight for Dor's customers.

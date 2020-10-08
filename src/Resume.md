@@ -87,7 +87,7 @@ San Francisco | 2015 - 2016
 :::::
 ::::: {.right-column}
 
- - Lead CareerLabs’ team of engineers to build a scalable and job search and employer rating platform. Launched [https://careerlabs.com](https://careerlabs.com) in 2015 (Closed 2017)
+ - Lead CareerLabs’ team of engineers to build a scalable job search and employer rating platform. Launched [https://careerlabs.com](https://careerlabs.com) in 2015 (Closed 2017)
 
 :::::
 ::::
@@ -121,9 +121,9 @@ Cupertino | 2013 - 2014
 :::::
 ::::: { .right-column }
 
- - Developed simulator tool in Objective C in order to improve the scalability of an 
+ - Developed a simulator tool in Objective C in order to improve the scalability of an 
  OSX Server Application.
- - Created fullstack web application in NodeJS / AngularJS that processes hundreds 
+ - Created a fullstack web application in NodeJS / AngularJS that processes hundreds 
  of thousand of tickets in order to produce actionable insights.
 
 :::::

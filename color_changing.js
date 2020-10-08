@@ -20,5 +20,5 @@ function nextColor() {
 }
 
 $( function() {
-    nextColor();
+    // nextColor();
 } );

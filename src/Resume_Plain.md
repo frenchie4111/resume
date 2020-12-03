@@ -1,11 +1,15 @@
 ## Mike Lyons
 
-Engineer
+Software Engineer
 
 Phone | 301-704-9099
+
 Email | mdl0394@gmail.com
+
 City | San Francisco
+
 Site | [https://MikeLyons.org/](https://MikeLyons.org/)
+
 Github | [https://github.com/frenchie4111](https://github.com/frenchie4111)
 
 

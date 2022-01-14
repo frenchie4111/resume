@@ -54,11 +54,11 @@ Engineer
 :::: {.flex .row}
 ::::: {.left-column}
 
-## Dor Technologies 
+## Verkada
 
-Lead Systems Architect
+Backend Team Lead @ Access Control
 
-San Francisco | 2015 - Now
+San Francisco Bay Area | 2021 - Now
 
 :::::: {.left-column-more}
 
@@ -67,10 +67,32 @@ San Francisco | 2015 - Now
 :::::
 ::::: {.right-column}
 
- - Founding engineer, responsible for the design and implementation of the machine learning and software systems that power Dor.
+ - Responsible for all of the backend and device business logic systems that power the Verkada Access Control product line
+ - Lead the software design and development of several new product lines for the Access Control space
+
+:::::
+::::
+
+:::: {.flex .row}
+::::: {.left-column}
+
+## Dor Technologies
+
+Lead Systems Architect
+
+San Francisco | 2015 - 2021
+
+:::::: {.left-column-more}
+
+::::::
+
+:::::
+::::: {.right-column}
+
+ - Founding engineer, responsible for the design and implementation of the machine learning and software systems that powered Dor.
  - Shipped a battery powered, neural net driven, IoT device that tracks customer foot traffic.
  - Lead the design and implementation of the automated data pipeline that allowed a tiny team of engineers to process millions of events and improve thousands of edge machine learning devices.
- - Built a fullstack application that gathers data from thousands of foot traffic sensors in order to power the Dor analytics platform and provide actionable insight for Dor's customers.
+ - Built a fullstack application that gathers data from thousands of foot traffic sensors in order to powered the Dor analytics platform and provide actionable insight for Dor's customers.
 
 :::::
 ::::
@@ -95,7 +117,7 @@ San Francisco | 2015 - 2016
 :::: { .flex .row }
 ::::: { .left-column }
 
-## Mark One / MyVessyl 
+## Mark One / MyVessyl
 
 Software Engineer
 
@@ -121,10 +143,8 @@ Cupertino | 2013 - 2014
 :::::
 ::::: { .right-column }
 
- - Developed a simulator tool in Objective C in order to improve the scalability of an 
- OSX Server Application.
- - Created a fullstack web application in NodeJS / AngularJS that processes hundreds 
- of thousand of tickets in order to produce actionable insights.
+ - Improved the scalability of the MDM product line
+ - Created a fullstack application in JS that processes hundreds of thousand of tickets in order to produce actionable insights.
 
 :::::
 ::::
@@ -132,9 +152,16 @@ Cupertino | 2013 - 2014
 :::: { .flex .row }
 ::::: { .left-column }
 
-## InstallNet IT Solutions 
+## InstallNet & Aertight Systems
+
+Software Engineering Intern
 
 Annapolis, MD | 2011 - 2012
+
+:::::
+::::: { .right-column }
+
+ - Built several internal business tools to automate some repetative tasks
 
 :::::
 ::::
@@ -161,7 +188,7 @@ Annapolis, MD | 2011 - 2012
 :::::
 ::::: { .right-column }
 
-Python, Numpy, Pandas, Tensorflow, Keras, C
+Python, Numpy, Pandas, Tensorflow, Keras
 
 :::::
 ::::
@@ -174,7 +201,7 @@ Python, Numpy, Pandas, Tensorflow, Keras, C
 :::::
 ::::: { .right-column }
 
-Docker, AWS, SQL, NoSQL, Python, NodeJS, Whatever gets the job done
+Python, NodeJS, Go, C, Docker, AWS, SQL, NoSQL, Whatever gets the job done
 
 :::::
 ::::

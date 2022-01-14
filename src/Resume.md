@@ -67,7 +67,7 @@ San Francisco Bay Area | 2021 - Now
 :::::
 ::::: {.right-column}
 
- - Responsible for all of the backend and device business logic systems that power the Verkada Access Control product line
+ - Responsible for the backend and device business logic systems that power the Verkada Access Control product line
  - Lead the software design and development of several new product lines for the Access Control space
 
 :::::

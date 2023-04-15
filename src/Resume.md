@@ -33,9 +33,7 @@ Engineer
 
 **Github | ** [https://github.com/frenchie4111](https://github.com/frenchie4111)
 
-
 ::::
-
 
 :::
 
@@ -43,7 +41,9 @@ Engineer
 
 :::: { .flex .row }
 ::::: {.left-column}
+
 # Experience {#white_heading .changing-color}
+
 :::::
 ::::: {.right-column .bar-container}
 :::::: { .bar .changing-color }
@@ -56,7 +56,7 @@ Engineer
 
 ## Verkada
 
-Backend Team Lead @ Access Control
+Head of Software, [Intercom](https://www.verkada.com/intercom/)
 
 San Francisco Bay Area | 2021 - Now
 
@@ -67,8 +67,8 @@ San Francisco Bay Area | 2021 - Now
 :::::
 ::::: {.right-column}
 
- - Responsible for the backend and device business logic systems that power the Verkada Access Control product line
- - Lead the software design and development of several new product lines for the Access Control space
+- Lead and grew a team of excellent engineers to launch Verkada's Intercom product line. The product
+  was built under a very short deadline, and is Verkada's most successful product launch to date.
 
 :::::
 ::::
@@ -89,10 +89,10 @@ San Francisco | 2015 - 2021
 :::::
 ::::: {.right-column}
 
- - Founding engineer, responsible for the design and implementation of the machine learning and software systems that powered Dor.
- - Shipped a battery powered, neural net driven, IoT device that tracks customer foot traffic.
- - Lead the design and implementation of the automated data pipeline that allowed a tiny team of engineers to process millions of events and improve thousands of edge machine learning devices.
- - Built a fullstack application that gathers data from thousands of foot traffic sensors in order to powered the Dor analytics platform and provide actionable insight for Dor's customers.
+- Founding engineer, responsible for the design and implementation of the machine learning and software systems that powered Dor.
+- Shipped a battery powered, neural net driven, IoT device that tracks customer foot traffic.
+- Lead the design and implementation of the automated data pipeline that allowed a tiny team of engineers to process millions of events and improve thousands of edge machine learning devices.
+- Built a fullstack application that gathers data from thousands of foot traffic sensors in order to powered the Dor analytics platform and provide actionable insight for Dor's customers.
 
 :::::
 ::::
@@ -109,7 +109,7 @@ San Francisco | 2015 - 2016
 :::::
 ::::: {.right-column}
 
- - Lead CareerLabs’ team of engineers to build a scalable job search and employer rating platform. Launched [https://careerlabs.com](https://careerlabs.com) in 2015 (Closed 2017)
+- Lead CareerLabs’ team of engineers to build a scalable job search and employer rating platform. Launched [https://careerlabs.com](https://careerlabs.com) in 2015 (Closed 2017)
 
 :::::
 ::::
@@ -126,7 +126,7 @@ San Francisco | 2014 – 2015
 :::::
 ::::: { .right-column }
 
- - Designed and built the backend infrastructure that supported an AI driven consumer hardware device.
+- Designed and built the backend infrastructure that supported an AI driven consumer hardware device.
 
 :::::
 ::::
@@ -143,8 +143,8 @@ Cupertino | 2013 - 2014
 :::::
 ::::: { .right-column }
 
- - Improved the scalability of the MDM product line
- - Created a fullstack application in JS that processes hundreds of thousand of tickets in order to produce actionable insights.
+- Improved the scalability of the MDM product line
+- Created a fullstack application in JS that processes hundreds of thousand of tickets in order to produce actionable insights.
 
 :::::
 ::::
@@ -161,18 +161,19 @@ Annapolis, MD | 2011 - 2012
 :::::
 ::::: { .right-column }
 
- - Built several internal business tools to automate some repetative tasks
+- Built several internal business tools to automate some repetative tasks
 
 :::::
 ::::
-
 
 ::::::::
 :::::::: { #skills }
 
 :::: { .flex .row }
 ::::: {.left-column}
+
 # Skills {#white_heading .changing-color}
+
 :::::
 ::::: {.right-column .bar-container}
 :::::: { .bar .changing-color }

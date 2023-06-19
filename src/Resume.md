@@ -67,7 +67,7 @@ San Francisco Bay Area | 2021 - Now
 :::::
 ::::: {.right-column}
 
-- Lead and grew a team of excellent engineers to launch Verkada's Intercom product line. The product
+- Lead and grew a team of excellent engineers to launch Verkada's [Intercom product line](https://www.verkada.com/intercom/). The product
   was built under a very short deadline, and is Verkada's most successful product launch to date.
 
 :::::
@@ -78,7 +78,8 @@ San Francisco Bay Area | 2021 - Now
 
 ## Dor Technologies
 
-Lead Systems Architect
+Software Lead<br />
+Cofounder
 
 San Francisco | 2015 - 2021
 
@@ -184,12 +185,13 @@ Annapolis, MD | 2011 - 2012
 :::: { .flex .row }
 ::::: { .left-column }
 
-## Machine Learning
+## Software Engineering
 
 :::::
 ::::: { .right-column }
 
-Python, Numpy, Pandas, Tensorflow, Keras
+Python, NodeJS, Go, C, Docker, AWS, SQL, NoSQL <br/>
+Firmware, Backend, Frontend, Whatever gets the job done
 
 :::::
 ::::
@@ -197,12 +199,12 @@ Python, Numpy, Pandas, Tensorflow, Keras
 :::: { .flex .row }
 ::::: { .left-column }
 
-## Software Engineering
+## Machine Learning
 
 :::::
 ::::: { .right-column }
 
-Python, NodeJS, Go, C, Docker, AWS, SQL, NoSQL, Whatever gets the job done
+Python, Numpy, Pandas, Tensorflow, Keras
 
 :::::
 ::::

@@ -58,7 +58,7 @@ Engineer
 
 Head of Software, [Intercom](https://www.verkada.com/intercom/)
 
-San Francisco Bay Area | 2021 - Now
+San Francisco Bay Area | 2021 - Dec 2023
 
 :::::: {.left-column-more}
 

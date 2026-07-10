@@ -23,8 +23,6 @@ Engineer
 ::::
 :::: {.flex .flex-column .filler #personal-info}
 
-**Phone | ** 301-704-9099
-
 **Email | ** mdl0394@gmail.com
 
 **City | ** San Francisco
@@ -54,6 +52,48 @@ Engineer
 :::: {.flex .row}
 ::::: {.left-column}
 
+## [Hi Finance](https://hifinance.ca)
+
+CTO / Co-Founder
+
+Canada | May 2025 - Present
+
+:::::: {.left-column-more}
+
+::::::
+
+:::::
+::::: {.right-column}
+
+- Leading product and technology strategy at a fintech neo-bank helping post-secondary students in Canada secure funding for their education.
+
+:::::
+::::
+
+:::: {.flex .row}
+::::: {.left-column}
+
+## Major Technology
+
+CTO / Co-Founder
+
+San Francisco | Mar 2024 - May 2025
+
+:::::: {.left-column-more}
+
+::::::
+
+:::::
+::::: {.right-column}
+
+- Co-founded pre-seed startup, raised $2.5M and worked hands-on with customers across commercial HVAC, fast-casual restaurants, and dental insurance.
+
+:::::
+::::
+
+:::: {.flex .row}
+::::: {.left-column}
+
 ## Verkada
 
 Head of Software, [Intercom](https://www.verkada.com/intercom/)
@@ -67,8 +107,7 @@ San Francisco Bay Area | 2021 - Dec 2023
 :::::
 ::::: {.right-column}
 
-- Lead and grew a team of excellent engineers to launch Verkada's [Intercom product line](https://www.verkada.com/intercom/). The product
-  was built under a very short deadline, and is Verkada's most successful product launch to date.
+- Grew a team of engineers to launch Verkada's [Intercom product line](https://www.verkada.com/intercom/) — built under a tight deadline and Verkada's most successful product launch to date.
 
 :::::
 ::::
@@ -78,7 +117,8 @@ San Francisco Bay Area | 2021 - Dec 2023
 
 ## Dor Technologies
 
-Software Lead<br />
+Head of Algorithms (AI/ML)<br />
+Lead Systems Architect<br />
 Cofounder
 
 San Francisco | 2015 - 2021
@@ -90,10 +130,8 @@ San Francisco | 2015 - 2021
 :::::
 ::::: {.right-column}
 
-- Founding engineer, responsible for the design and implementation of the machine learning and software systems that powered Dor.
-- Shipped a battery powered, neural net driven, IoT device that tracks customer foot traffic.
-- Lead the design and implementation of the automated data pipeline that allowed a tiny team of engineers to process millions of events and improve thousands of edge machine learning devices.
-- Built a fullstack application that gathers data from thousands of foot traffic sensors in order to powered the Dor analytics platform and provide actionable insight for Dor's customers.
+- Founding engineer. Shipped a battery-powered, neural-net-driven IoT device that tracks customer foot traffic across thousands of retail sites.
+- Built the data pipeline and fullstack analytics platform that processed millions of events across thousands of edge ML devices and drove insight for Dor's customers.
 
 :::::
 ::::

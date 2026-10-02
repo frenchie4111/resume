@@ -141,7 +141,7 @@ margin-bottom: 5mm;
 width: 215mm;
 }
 body {
-font-family: Helvetica, Arial, sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-size: 14pt;
 }
 .page-section {
@@ -169,7 +169,7 @@ flex-direction: column;
 }
 .row {
 flex-direction: row;
-margin-top: 17pt;
+margin-top: 12pt;
 }
 .hidden>h1, .hidden>h2, .hidden>h3, .hidden>h4, .hidden>h5 {
 display: none;
@@ -286,14 +286,14 @@ margin-bottom: 0;
 
 #experience {
 }
-#experience .left-column p {
+#experience .left-column p, #open-source .left-column p {
 line-height: 1.2;
 font-size: 11pt;
 }
-#experience .right-column p { 
+#experience .right-column p, #open-source .right-column p { 
 padding-bottom: 4pt;
 }
-#experience .right-column li {
+#experience .right-column li, #open-source .right-column li {
 
 line-height: 1.4;
 margin-bottom: 7px;
@@ -323,6 +323,10 @@ font-size: 10pt;
 
 color: #727273ff;
 }
+
+.right-column strong {
+color: #231f20;
+}
 .left-column p {
 color: black;
 }
@@ -332,23 +336,11 @@ flex: 1;
 .right-column {
 flex: 1.5;
 }
-#skills h2 {
-padding-top: 10pt;
-}
-#skills h2:first-of-type {
-padding-top: 0;
-}
-#skills h2:first-of-type {
-padding-top: 0;
-}
-#skills .right-column p {
-
-line-height: 1.25;
-}</style>
+</style>
 </head>
 <body>
 <div id="header" class="page-section">
-<p>You are viewing the HTML version of this resume, click <a href="Mike-Lyons-Resume.pdf">here</a> to for the pdf version</p>
+<p>You are viewing the HTML version of this resume. Download the PDF <a href="Mike-Lyons-Resume.pdf">here</a>.</p>
 </div>
 <div id="resume" class="page-section">
 <div id="resume-header" class="flex row">
@@ -359,14 +351,14 @@ line-height: 1.25;
 </figure>
 <section id="mike-lyons" class="level2">
 <h2>Mike Lyons</h2>
-<p>Engineer</p>
+<p>Engineering Leader</p>
 </section>
 </div>
 <div id="personal-info" class="flex flex-column filler">
 <p><strong>Email | </strong> mdl0394@gmail.com</p>
 <p><strong>City | </strong> San Francisco</p>
-<p><strong>Site | </strong> <a href="https://MikeLyons.org/">MikeLyons.org</a></p>
-<p><strong>Github | </strong> <a href="https://github.com/frenchie4111">github.com/frenchie4111</a></p>
+<p><strong>Site | </strong> <a href="https://MikeLyons.org/">https://MikeLyons.org/</a></p>
+<p><strong>Github | </strong> <a href="https://github.com/frenchie4111">https://github.com/frenchie4111</a></p>
 </div>
 </div>
 <div id="experience">
@@ -382,7 +374,7 @@ line-height: 1.25;
 </div>
 <div class="flex row">
 <section id="hi-finance" class="level2 left-column">
-<h2><a href="https://hifinance.ca">Hi Finance</a></h2>
+<h2><a href="https://hifinance.ca">hi finance</a></h2>
 <p>CTO / Co-Founder</p>
 <p>Canada | May 2025 - Present</p>
 <div class="left-column-more">
@@ -391,15 +383,20 @@ line-height: 1.25;
 </section>
 <div class="right-column">
 <ul>
-<li>Leading product and technology strategy at a fintech neo-bank
-helping post-secondary students in Canada secure funding for their
-education.</li>
+<li>Lead engineering as co-founder. Built a custom <strong>agent harness
+and software factory</strong> that writes and ships its own code, so 1
+engineer and 2 operations staff run three mobile apps, a web app, and an
+in-house CRM.</li>
+<li>Shipped an AI grant application system that lets any university
+student claim student aid from their phone, without ever opening the
+original application site. Over <strong>3,000 students</strong> have
+used it to claim more than <strong>$4M in funding</strong>.</li>
 </ul>
 </div>
 </div>
 <div class="flex row">
-<section id="major-technology" class="level2 left-column">
-<h2>Major Technology</h2>
+<section id="stealth-startup" class="level2 left-column">
+<h2>Stealth Startup</h2>
 <p>CTO / Co-Founder</p>
 <p>San Francisco | Mar 2024 - May 2025</p>
 <div class="left-column-more">
@@ -408,9 +405,10 @@ education.</li>
 </section>
 <div class="right-column">
 <ul>
-<li>Co-founded pre-seed startup, raised $2.5M and worked hands-on with
-customers across commercial HVAC, fast-casual restaurants, and dental
-insurance.</li>
+<li>Co-founded a pre-seed startup and raised <strong>$2.5M</strong> to
+put LLMs to work in sectors that had barely been touched by them:
+commercial HVAC, fast-casual restaurants, and dental insurance. Led the
+technical work and ran customer discovery in each.</li>
 </ul>
 </div>
 </div>
@@ -425,17 +423,17 @@ insurance.</li>
 </section>
 <div class="right-column">
 <ul>
-<li>Grew a team of engineers to launch Verkada’s <a href="https://www.verkada.com/intercom/">Intercom product line</a> —
-built under a tight deadline and Verkada’s most successful product
-launch to date.</li>
+<li>Hired, mentored, and led a team of <strong>8 engineers</strong> that
+launched Verkada’s <a href="https://www.verkada.com/intercom/">Intercom
+product line</a> on a tight deadline. Verkada’s most successful product
+launch to date, at <strong>$14M in year one</strong>.</li>
 </ul>
 </div>
 </div>
 <div class="flex row">
 <section id="dor-technologies" class="level2 left-column">
 <h2>Dor Technologies</h2>
-<p>Head of Algorithms (AI/ML)<br /> Lead Systems Architect<br />
-Cofounder</p>
+<p>Head of AI<br /> Cofounder</p>
 <p>San Francisco | 2015 - 2021</p>
 <div class="left-column-more">
 
@@ -443,26 +441,12 @@ Cofounder</p>
 </section>
 <div class="right-column">
 <ul>
-<li>Founding engineer. Shipped a battery-powered, neural-net-driven IoT
-device that tracks customer foot traffic across thousands of retail
-sites.</li>
+<li>Founding engineer, later hiring, mentoring, and leading the AI team
+as it grew to <strong>10</strong>. Shipped a battery-powered,
+neural-net-driven IoT device that tracks customer foot traffic across
+thousands of retail sites.</li>
 <li>Built the data pipeline and fullstack analytics platform that
-processed millions of events across thousands of edge ML devices and
-drove insight for Dor’s customers.</li>
-</ul>
-</div>
-</div>
-<div class="flex row">
-<section id="careerlabs" class="level2 left-column">
-<h2>CareerLabs</h2>
-<p>Technical Cofounder</p>
-<p>San Francisco | 2015 - 2016</p>
-</section>
-<div class="right-column">
-<ul>
-<li>Lead CareerLabs’ team of engineers to build a scalable job search
-and employer rating platform. Launched <a href="https://careerlabs.com">careerlabs.com</a> in 2015 (Closed
-2017)</li>
+processed millions of events from thousands of edge ML devices.</li>
 </ul>
 </div>
 </div>
@@ -474,8 +458,8 @@ and employer rating platform. Launched <a href="https://careerlabs.com">careerla
 </section>
 <div class="right-column">
 <ul>
-<li>Designed and built the backend infrastructure that supported an AI
-driven consumer hardware device.</li>
+<li>Designed and built the backend infrastructure behind an AI-driven
+consumer hardware device.</li>
 </ul>
 </div>
 </div>
@@ -487,30 +471,29 @@ driven consumer hardware device.</li>
 </section>
 <div class="right-column">
 <ul>
-<li>Improved the scalability of the MDM product line</li>
-<li>Created a fullstack application in JS that processes hundreds of
-thousand of tickets in order to produce actionable insights.</li>
+<li>Built a fullstack JS application that turns hundreds of thousands of
+tickets into usable reports, and improved the scalability of the MDM
+product line.</li>
 </ul>
 </div>
 </div>
 <div class="flex row">
-<section id="installnet-aertight-systems" class="level2 left-column">
-<h2>InstallNet &amp; Aertight Systems</h2>
-<p>Software Engineering Intern</p>
-<p>Annapolis, MD | 2011 - 2012</p>
+<section id="earlier" class="level2 left-column">
+<h2>Earlier</h2>
 </section>
 <div class="right-column">
 <ul>
-<li>Built several internal business tools to automate some repetative
-tasks</li>
+<li>Technical Cofounder at CareerLabs (2015 – 2016). Software
+engineering intern at InstallNet &amp; Aertight Systems, Annapolis MD
+(2011 – 2012).</li>
 </ul>
 </div>
 </div>
 </div>
-<div id="skills">
+<div id="open-source">
 <div class="flex row">
-<section id="white_heading" class="level1 changing-color left-column">
-<h1 class="changing-color">Skills</h1>
+<section id="open-source" class="level1 changing-color left-column">
+<h1 class="changing-color">Open Source</h1>
 </section>
 <div class="right-column bar-container">
 <div class="bar changing-color">
@@ -519,20 +502,17 @@ tasks</li>
 </div>
 </div>
 <div class="flex row">
-<section id="software-engineering" class="level2 left-column">
-<h2>Software Engineering</h2>
+<section id="ness" class="level2 left-column">
+<h2><a href="https://github.com/ness-dev/ness">Ness</a></h2>
+<p>Creator &amp; Primary Author</p>
+<p>Open Source | 2026 - Present</p>
 </section>
 <div class="right-column">
-<p>Python, NodeJS, Go, C, Docker, AWS, SQL, NoSQL <br /> Firmware,
-Backend, Frontend, Whatever gets the job done</p>
-</div>
-</div>
-<div class="flex row">
-<section id="machine-learning" class="level2 left-column">
-<h2>Machine Learning</h2>
-</section>
-<div class="right-column">
-<p>Python, Numpy, Pandas, Tensorflow, Keras</p>
+<ul>
+<li>An open-source IDE for coding with agents: parallel agent sessions
+across git worktrees, each with its own terminal, shell, and a browser
+the agent drives directly.</li>
+</ul>
 </div>
 </div>
 </div>

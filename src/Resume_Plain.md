@@ -1,6 +1,6 @@
 ## Mike Lyons
 
-Software Engineer
+Engineering Leader
 
 Email | mdl0394@gmail.com
 
@@ -13,21 +13,22 @@ Github | [https://github.com/frenchie4111](https://github.com/frenchie4111)
 
 # Experience
 
-## [Hi Finance](https://hifinance.ca)
+## [hi finance](https://hifinance.ca)
 
 CTO / Co-Founder
 
 Canada | May 2025 - Present
 
- - Leading product and technology strategy at a fintech neo-bank helping post-secondary students in Canada secure funding for their education.
+ - Lead engineering as co-founder. Built a custom agent harness and software factory that writes and ships its own code, so 1 engineer and 2 operations staff run three mobile apps, a web app, and an in-house CRM.
+ - Shipped an AI grant application system that lets any university student claim student aid from their phone, without ever opening the original application site. Over 3,000 students have used it to claim more than $4M in funding.
 
-## Major Technology
+## Stealth Startup
 
 CTO / Co-Founder
 
 San Francisco | Mar 2024 - May 2025
 
- - Co-founded pre-seed startup, raised $2.5M and worked hands-on with customers across commercial HVAC, fast-casual restaurants, and dental insurance.
+ - Co-founded a pre-seed startup and raised $2.5M to put LLMs to work in sectors that had barely been touched by them: commercial HVAC, fast-casual restaurants, and dental insurance. Led the technical work and ran customer discovery in each.
 
 ## Verkada
 
@@ -35,53 +36,45 @@ Head of Software, Intercom
 
 San Francisco Bay Area | 2021 - Dec 2023
 
- - Grew a team of engineers to launch Verkada's Intercom product line — built under a tight deadline and Verkada's most successful product launch to date.
+ - Hired, mentored, and led a team of 8 engineers that launched Verkada's Intercom product line on a tight deadline. Verkada's most successful product launch to date, at $14M in year one.
 
 ## Dor Technologies
 
-Head of Algorithms (AI/ML); Lead Systems Architect; Cofounder
+Head of AI; Cofounder
 
 San Francisco | 2015 - 2021
 
- - Founding engineer. Shipped a battery-powered, neural-net-driven IoT device that tracks customer foot traffic across thousands of retail sites.
- - Built the data pipeline and fullstack analytics platform that processed millions of events across thousands of edge ML devices and drove insight for Dor's customers.
-
-## CareerLabs
-
-Technical Cofounder
-
-San Francisco | 2015 - 2016
-
- - Lead CareerLabs’ team of engineers to build a scalable job search and employer rating platform. Launched [https://careerlabs.com](https://careerlabs.com) in 2015 (Closed 2017)
+ - Founding engineer, later hiring, mentoring, and leading the AI team as it grew to 10. Shipped a battery-powered, neural-net-driven IoT device that tracks customer foot traffic across thousands of retail sites.
+ - Built the data pipeline and fullstack analytics platform that processed millions of events from thousands of edge ML devices.
 
 ## Mark One / MyVessyl
 
 Software Engineer
 
 San Francisco | 2014 – 2015
- - Designed and built the backend infrastructure that supported an AI driven consumer hardware device.
+
+ - Designed and built the backend infrastructure behind an AI-driven consumer hardware device.
 
 ## Apple
 
 Software Engineering Co-op
 
 Cupertino | 2013 - 2014
- - Developed a simulator tool in Objective C in order to improve the scalability of an
- OSX Server Application.
- - Created a fullstack web application in NodeJS / AngularJS that processes hundreds
- of thousand of tickets in order to produce actionable insights.
 
-## InstallNet IT Solutions
+ - Built a fullstack NodeJS / AngularJS application that turns hundreds of thousands of tickets into usable reports.
+ - Built a simulator tool in Objective C that improved the scalability of an OSX Server application.
 
-Annapolis, MD | 2011 - 2012
+## Earlier
 
-# Skills
+ - Technical Cofounder at CareerLabs (2015 – 2016). Software engineering intern at InstallNet & Aertight Systems, Annapolis MD (2011 – 2012).
 
-## Software Engineering
+# Open Source
 
-Docker, AWS, SQL, NoSQL, Python, NodeJS, Whatever gets the job done
+## Ness, [getness.dev](https://getness.dev)
 
-## Machine Learning
+Creator & Primary Author
 
-Python, Numpy, Pandas, Tensorflow, Keras, C
+[github.com/ness-dev/ness](https://github.com/ness-dev/ness) | 2026 - Present
+
+ - An open-source IDE for coding with agents: parallel agent sessions across git worktrees, each with its own terminal, shell, and a browser the agent drives directly.
 

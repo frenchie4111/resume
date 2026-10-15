@@ -2,7 +2,7 @@
 
 Founding Engineer · Startup CTO
 
-Hardware × AI: edge computer vision, device fleets in the thousands, and 0→1 product launches.
+AI × firmware × software. I build products people love, and I'm looking to push what hardware can do.
 
 Email | mdl0394@gmail.com
 

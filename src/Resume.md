@@ -37,7 +37,7 @@ Founding Engineer · Startup CTO
 
 ::: {.pitch-row}
 
-Backend × firmware × AI. I build products people love, and I'm looking to push what hardware can do.
+AI × firmware × software. I build products people love, and I'm looking to push what hardware can do.
 
 :::
 

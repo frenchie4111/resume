@@ -208,10 +208,13 @@ strong {
 }
 
 #name {
-    flex: 1;
+    flex: 2;
     justify-content: start;
-    white-space: nowrap;
     margin-top: 0;
+}
+
+#name h2, #name p {
+    white-space: nowrap;
 }
 
 #name h2 {

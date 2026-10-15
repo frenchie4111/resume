@@ -38,7 +38,7 @@ Head of Software, Intercom
 
 San Francisco Bay Area | 2021 - Dec 2023
 
- - Built and launched Verkada's Intercom product line — its most successful launch ever at $14M in year one — hiring and leading the 8 engineers who shipped it on a tight deadline.
+ - Built and launched Verkada's Intercom product line, its most successful launch ever at $14M in year one, hiring and leading the 8 engineers who shipped it on a tight deadline.
 
 ## Dor Technologies
 

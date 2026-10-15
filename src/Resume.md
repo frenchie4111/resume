@@ -18,6 +18,8 @@ You are viewing the HTML version of this resume. Download the PDF [here](Resume.
 
 Founding Engineer · Startup CTO
 
+[Hardware × AI: edge computer vision, device fleets in the thousands, and 0→1 product launches.]{.pitch-line}
+
 :::::
 
 ::::
@@ -130,7 +132,7 @@ San Francisco | 2015 - 2021
 :::::
 ::::: {.right-column}
 
-- Founding engineer, later hiring, mentoring, and leading the AI team as it grew to **10**. Shipped a battery-powered, neural-net-driven IoT device that tracks customer foot traffic across thousands of retail sites.
+- Shipped a battery-powered, neural-net-driven IoT device deployed across thousands of retail sites as a **founding engineer**, later leading the AI team as it grew to **10**.
 - Built the data pipeline and fullstack analytics platform that processed millions of events from thousands of edge ML devices.
 
 :::::

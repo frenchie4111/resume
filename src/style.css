@@ -323,3 +323,18 @@ h2 em {
     flex: 1.5;
 }
 
+
+/*
+ Physical-AI positioning: one-line thesis under the headline.
+ Sits inside #name so it never fights the contact block; wraps instead of
+ pushing the personal-info column (which is nowrap).
+*/
+#name p.pitch-line, p:has(> span.pitch-line), span.pitch-line {
+    font-size: 10.5pt;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #231f20ff;
+    white-space: normal;
+    max-width: 340pt;
+    margin-top: 2pt;
+}

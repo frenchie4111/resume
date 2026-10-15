@@ -9,6 +9,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    # The default GITHUB_TOKEN may be read-only depending on repo settings;
+    # deploy.sh pushes to the gh-pages branch, so grant contents: write.
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

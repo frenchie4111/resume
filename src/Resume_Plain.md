@@ -1,6 +1,8 @@
 ## Mike Lyons
 
-Engineering Leader
+Founding Engineer · Startup CTO
+
+AI × firmware × software. I build products people love, and I'm looking to push what hardware can do.
 
 Email | mdl0394@gmail.com
 
@@ -19,10 +21,10 @@ CTO / Co-Founder
 
 Canada | May 2025 - Present
 
- - Lead engineering as co-founder. Built a custom agent harness and software factory that writes and ships its own code, so 1 engineer and 2 operations staff run three mobile apps, a web app, and an in-house CRM.
+ - Lead engineering as co-founder of a Canadian fintech. Built a custom agent harness and software factory that writes and ships its own code, so 1 engineer and 2 operations staff run three mobile apps, a web app, and an in-house CRM.
  - Shipped an AI grant application system that lets any university student claim student aid from their phone, without ever opening the original application site. Over 3,000 students have used it to claim more than $4M in funding.
 
-## Stealth Startup
+## Stealth AI Startup
 
 CTO / Co-Founder
 
@@ -36,7 +38,7 @@ Head of Software, Intercom
 
 San Francisco Bay Area | 2021 - Dec 2023
 
- - Hired, mentored, and led a team of 8 engineers that launched Verkada's Intercom product line on a tight deadline. Verkada's most successful product launch to date, at $14M in year one.
+ - Built and launched Verkada's Intercom product line, its most successful launch ever at $14M in year one, hiring and leading the 8 engineers who shipped it on a tight deadline.
 
 ## Dor Technologies
 
@@ -44,7 +46,7 @@ Head of AI; Cofounder
 
 San Francisco | 2015 - 2021
 
- - Founding engineer, later hiring, mentoring, and leading the AI team as it grew to 10. Shipped a battery-powered, neural-net-driven IoT device that tracks customer foot traffic across thousands of retail sites.
+ - Shipped a battery-powered, neural-net-driven IoT device deployed across thousands of retail sites as a founding engineer, later leading the AI team as it grew to 10.
  - Built the data pipeline and fullstack analytics platform that processed millions of events from thousands of edge ML devices.
 
 ## Mark One / MyVessyl

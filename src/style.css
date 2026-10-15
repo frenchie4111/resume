@@ -208,10 +208,13 @@ strong {
 }
 
 #name {
-    flex: 1;
+    flex: 2;
     justify-content: start;
-    white-space: nowrap;
     margin-top: 0;
+}
+
+#name h2, #name p {
+    white-space: nowrap;
 }
 
 #name h2 {
@@ -323,3 +326,16 @@ h2 em {
     flex: 1.5;
 }
 
+
+/*
+ Physical-AI positioning: one-line thesis under the whole header row.
+ Full width (spans under both name and contact block), so the contact
+ block stays put and the line just wraps across the bottom.
+*/
+.pitch-row {
+    font-size: 10.5pt;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #231f20ff;
+    margin-top: 10pt;
+}

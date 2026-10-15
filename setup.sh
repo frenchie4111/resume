@@ -7,7 +7,8 @@ if [ "$(uname)" == "Darwin" ]; then
     brew install pandoc
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     sudo apt-get update
-    sudo apt-get install -y pandoc
+    # fonts-open-sans: PDF build needs the real font installed (see Readme)
+    sudo apt-get install -y pandoc fonts-open-sans
 fi
 
 corepack enable

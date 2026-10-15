@@ -16,7 +16,7 @@ You are viewing the HTML version of this resume. Download the PDF [here](Resume.
 
 ## Mike Lyons
 
-Engineering Leader
+Founding Engineer · Startup CTO
 
 :::::
 
@@ -65,7 +65,7 @@ Canada | May 2025 - Present
 :::::
 ::::: {.right-column}
 
-- Lead engineering as co-founder. Built a custom **agent harness and software factory** that writes and ships its own code, so 1 engineer and 2 operations staff run three mobile apps, a web app, and an in-house CRM.
+- Lead engineering as co-founder of a Canadian fintech. Built a custom **agent harness and software factory** that writes and ships its own code, so 1 engineer and 2 operations staff run three mobile apps, a web app, and an in-house CRM.
 - Shipped an AI grant application system that lets any university student claim student aid from their phone, without ever opening the original application site. Over **3,000 students** have used it to claim more than **$4M in funding**.
 
 :::::
@@ -74,7 +74,7 @@ Canada | May 2025 - Present
 :::: {.flex .row}
 ::::: {.left-column}
 
-## Stealth Startup
+## Stealth AI Startup
 
 CTO / Co-Founder
 
@@ -108,7 +108,7 @@ San Francisco Bay Area | 2021 - Dec 2023
 :::::
 ::::: {.right-column}
 
-- Hired, mentored, and led a team of **8 engineers** that launched Verkada's [Intercom product line](https://www.verkada.com/intercom/) on a tight deadline. Verkada's most successful product launch to date, at **$14M in year one**.
+- Built and launched Verkada's [Intercom product line](https://www.verkada.com/intercom/) — its most successful launch ever at **$14M in year one** — hiring and leading the **8 engineers** who shipped it on a tight deadline.
 
 :::::
 ::::

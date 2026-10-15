@@ -37,7 +37,7 @@ Founding Engineer · Startup CTO
 
 ::: {.pitch-row}
 
-Hardware × AI: edge computer vision, device fleets in the thousands, and 0→1 product launches.
+Backend × firmware × AI. I build products people love, and I'm looking to push what hardware can do.
 
 :::
 

@@ -12,18 +12,21 @@ It is also intended to support per-company cover letters and resume versions.
 
 ## Dependencies
 
-Install these on your system using your prefered package manager
+pandoc — install via your package manager (`brew install pandoc` on macOS,
+`apt-get install pandoc` on Debian/Ubuntu). Note: pandoc 3.x renamed
+`--self-contained` to `--embed-resources`; until the Makefile is updated,
+stick to a pandoc 2.x release. The repo's `setup.sh` installs one for you.
+
+Node dependencies — run `setup.sh`, or manually:
 
 ```
-pandoc
-
+corepack enable
+yarn install
 ```
 
-Install node packages
-
-```
-npm install
-```
+`yarn install` also downloads a compatible Chrome build for puppeteer on
+first run (see [Puppeteer's docs](https://pptr.dev/)); the PDF build needs
+that browser available.
 
 If you want to use `make watch` you will also need python and `nodemon`
 

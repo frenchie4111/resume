@@ -17,7 +17,10 @@ const printUsage = () => {
     const input_file = 'file://' + path.resolve( __dirname, process.argv[ 2 ] );
     const output_file = path.resolve( __dirname, process.argv[ 3 ] );
 
-    const browser = await puppeteer.launch();
+    // GitHub Actions runners (Ubuntu 23.10+) block unprivileged user
+    // namespaces, so Chrome's default sandbox can't start there.
+    // The resume HTML is trusted local input, so --no-sandbox is fine here.
+    const browser = await puppeteer.launch( { args: [ '--no-sandbox' ] } );
     const page = await browser.newPage();
     await page
         .goto( input_file, {

@@ -13,11 +13,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Pandoc
+      - name: Install Pandoc 2.x
+        # ubuntu-latest's apt pandoc is 3.x, which removed --self-contained
+        # (renamed --embed-resources). The Makefile still uses 2.x syntax, so
+        # pin the exact pandoc the last good deploys were built with rather
+        # than upgrading the pipeline.
+        run: |
+          wget -q https://github.com/jgm/pandoc/releases/download/2.17.1.1/pandoc-2.17.1.1-1-amd64.deb
+          sudo dpkg -i pandoc-2.17.1.1-1-amd64.deb
+          rm pandoc-2.17.1.1-1-amd64.deb
+          pandoc --version | head -1
+      - name: Install Open Sans font
         # fonts-open-sans: the PDF renders from Resume.html, which has no
         # webfont link — without the font installed the build silently
         # falls back to a wider system font and clips the last section.
-        run: sudo apt-get install -y pandoc fonts-open-sans
+        run: sudo apt-get install -y fonts-open-sans
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

@@ -8,6 +8,8 @@ dist/
 # Created by https://www.gitignore.io/api/node
 
 ### Node ###
+package-lock.json
+
 # Logs
 logs
 *.log

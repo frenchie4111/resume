@@ -66,7 +66,7 @@ h1.changing-color {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
+    font-size: 11.5pt;
 }
 
 .page-section {
@@ -104,7 +104,7 @@ a:link {
 
 .row {
     flex-direction: row;
-    margin-top: 6pt;
+    margin-top: 5pt;
 }
 
 .hidden>h1, .hidden>h2, .hidden>h3, .hidden>h4, .hidden>h5 {
@@ -185,7 +185,7 @@ strong {
 */
 
 #resume {
-    padding: 1.25cm 1.6cm 1.25cm 1.6cm;
+    padding: 1.0cm 1.6cm 1.0cm 1.6cm;
 }
 
 #resume-header {
@@ -277,7 +277,7 @@ strong {
 #experience .right-column li, #open-source .right-column li {
     /* color: #333; */
     line-height: 1.25;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
 }
 
 h1 {
@@ -294,7 +294,7 @@ h2 {
     background-color: none;
     font-size: 11pt;
     font-weight: bold;
-    padding-bottom: 2pt;
+    padding-bottom: 1pt;
     letter-spacing: -.5pt;
 }
 

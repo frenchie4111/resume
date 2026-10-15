@@ -18,8 +18,6 @@ You are viewing the HTML version of this resume. Download the PDF [here](Resume.
 
 Founding Engineer · Startup CTO
 
-[Hardware × AI: edge computer vision, device fleets in the thousands, and 0→1 product launches.]{.pitch-line}
-
 :::::
 
 ::::
@@ -34,6 +32,12 @@ Founding Engineer · Startup CTO
 **Github | ** [https://github.com/frenchie4111](https://github.com/frenchie4111)
 
 ::::
+
+:::
+
+::: {.pitch-row}
+
+Hardware × AI: edge computer vision, device fleets in the thousands, and 0→1 product launches.
 
 :::
 

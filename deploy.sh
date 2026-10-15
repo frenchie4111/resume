@@ -3,6 +3,8 @@
 # Fails loudly — a half-successful deploy is worse than a failed one.
 set -euo pipefail
 
+echo "--- deploy context: node $(node --version), $(pandoc --version | head -1) ---"
+
 # Fetch the gh-pages ref so the worktree can attach (actions/checkout only
 # fetches the branch being built).
 git fetch origin gh-pages
@@ -49,6 +51,12 @@ git add .
 if git diff --cached --quiet; then
     echo "no changes to deploy"
 else
-    git commit -m "Automated Deploy"
-    git push origin HEAD:gh-pages
+    # CI runners have no git identity configured.
+    git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Automated Deploy"
+    if ! git push origin HEAD:gh-pages; then
+        echo "" >&2
+        echo "deploy: PUSH FAILED. If the log shows a 403, the workflow's GITHUB_TOKEN" >&2
+        echo "lacks write access — add 'permissions: contents: write' to the workflow." >&2
+        exit 1
+    fi
 fi

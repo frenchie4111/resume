@@ -66,7 +66,7 @@ h1.changing-color {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 .page-section {
@@ -78,7 +78,7 @@ div {
 }
 
 p {
-    font-size: 10pt;
+    font-size: 9.5pt;
     /* font-size: 1em; */
 }
 
@@ -104,7 +104,7 @@ a:link {
 
 .row {
     flex-direction: row;
-    margin-top: 12pt;
+    margin-top: 6pt;
 }
 
 .hidden>h1, .hidden>h2, .hidden>h3, .hidden>h4, .hidden>h5 {
@@ -185,7 +185,7 @@ strong {
 */
 
 #resume {
-    padding: 1.6cm;
+    padding: 1.25cm 1.6cm 1.25cm 1.6cm;
 }
 
 #resume-header {
@@ -220,7 +220,7 @@ strong {
 #name h2 {
     font-size: 18pt;
     margin: 0;
-    padding-bottom: 10px;
+    padding-bottom: 6px;
 }
 
 #name p {
@@ -266,18 +266,18 @@ strong {
 }
 
 #experience .left-column p, #open-source .left-column p {
-    line-height: 1.2;
-    font-size: 11pt;
+    line-height: 1.15;
+    font-size: 10.5pt;
 }
 
 #experience .right-column p, #open-source .right-column p { /* Job Description */
-    padding-bottom: 4pt;
+    padding-bottom: 2pt;
 }
 
 #experience .right-column li, #open-source .right-column li {
     /* color: #333; */
-    line-height: 1.4;
-    margin-bottom: 7px;
+    line-height: 1.25;
+    margin-bottom: 2px;
 }
 
 h1 {
@@ -294,7 +294,7 @@ h2 {
     background-color: none;
     font-size: 11pt;
     font-weight: bold;
-    padding-bottom: 4pt;
+    padding-bottom: 2pt;
     letter-spacing: -.5pt;
 }
 
@@ -337,5 +337,5 @@ h2 em {
     font-weight: 600;
     line-height: 1.35;
     color: #231f20ff;
-    margin-top: 10pt;
+    margin-top: 4pt;
 }

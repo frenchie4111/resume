@@ -1,12 +1,18 @@
 #!/usr/bin/env bash
+# Install system + node dependencies for building the resume.
 
+# pandoc: any 2.x works (the Makefile uses --self-contained, which pandoc 3.x
+# renamed to --embed-resources — don't jump to 3.x without updating the Makefile).
 if [ "$(uname)" == "Darwin" ]; then
-    brew cask install pandoc
+    brew install pandoc
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-    wget https://github.com/jgm/pandoc/releases/download/2.2.1/pandoc-2.2.1-1-amd64.deb
-    sudo dpkg -i pandoc-2.2.1-1-amd64.deb
-    rm pandoc-2.2.1-1-amd64.deb
+    sudo apt-get update
+    # fonts-open-sans: PDF build needs the real font installed (see Readme)
+    sudo apt-get install -y pandoc fonts-open-sans
 fi
 
+corepack enable
+yarn install
+
+# For `make watch` only
 npm install -g nodemon
-npm installs

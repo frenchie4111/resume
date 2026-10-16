@@ -78,7 +78,7 @@ div {
 }
 
 p {
-    font-size: 9.5pt;
+    font-size: 9.75pt;
     /* font-size: 1em; */
 }
 
@@ -104,7 +104,7 @@ a:link {
 
 .row {
     flex-direction: row;
-    margin-top: 5pt;
+    margin-top: 9pt;
 }
 
 .hidden>h1, .hidden>h2, .hidden>h3, .hidden>h4, .hidden>h5 {
@@ -174,7 +174,7 @@ strong {
 #cover-letter p, #cover-letter li {
     margin: 20px 0 0 0;
     line-height: 1.4;
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 #cover-letter p:last-of-type {
@@ -185,7 +185,7 @@ strong {
 */
 
 #resume {
-    padding: 1.0cm 1.6cm 1.0cm 1.6cm;
+    padding: 1.2cm 1.6cm 1.2cm 1.6cm;
 }
 
 #resume-header {
@@ -220,7 +220,7 @@ strong {
 #name h2 {
     font-size: 18pt;
     margin: 0;
-    padding-bottom: 6px;
+    padding-bottom: 2px;
 }
 
 #name p {
@@ -262,22 +262,22 @@ strong {
 */
 
 #experience {
-
+    margin-top: 20pt;
 }
 
 #experience .left-column p, #open-source .left-column p {
-    line-height: 1.15;
-    font-size: 10.5pt;
+    line-height: 1.2;
+    font-size: 10.75pt;
 }
 
 #experience .right-column p, #open-source .right-column p { /* Job Description */
-    padding-bottom: 2pt;
+    padding-bottom: 3pt;
 }
 
 #experience .right-column li, #open-source .right-column li {
     /* color: #333; */
-    line-height: 1.25;
-    margin-bottom: 1px;
+    line-height: 1.4;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -292,9 +292,9 @@ h1 {
 
 h2 {
     background-color: none;
-    font-size: 11pt;
+    font-size: 10.5pt;
     font-weight: bold;
-    padding-bottom: 1pt;
+    padding-bottom: 3pt;
     letter-spacing: -.5pt;
 }
 
@@ -337,5 +337,5 @@ h2 em {
     font-weight: 600;
     line-height: 1.35;
     color: #231f20ff;
-    margin-top: 4pt;
+    margin-top: 2pt;
 }

@@ -104,7 +104,7 @@ a:link {
 
 .row {
     flex-direction: row;
-    margin-top: 3.5pt;
+    margin-top: 9pt;
 }
 
 .hidden>h1, .hidden>h2, .hidden>h3, .hidden>h4, .hidden>h5 {
@@ -174,7 +174,7 @@ strong {
 #cover-letter p, #cover-letter li {
     margin: 20px 0 0 0;
     line-height: 1.4;
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 #cover-letter p:last-of-type {
@@ -185,7 +185,7 @@ strong {
 */
 
 #resume {
-    padding: 0.9cm 1.6cm 0.9cm 1.6cm;
+    padding: 1.3cm 1.6cm 1.3cm 1.6cm;
 }
 
 #resume-header {
@@ -276,8 +276,8 @@ strong {
 
 #experience .right-column li, #open-source .right-column li {
     /* color: #333; */
-    line-height: 1.2;
-    margin-bottom: 0;
+    line-height: 1.4;
+    margin-bottom: 6px;
 }
 
 h1 {
@@ -294,7 +294,7 @@ h2 {
     background-color: none;
     font-size: 10.5pt;
     font-weight: bold;
-    padding-bottom: 1pt;
+    padding-bottom: 3pt;
     letter-spacing: -.5pt;
 }
 

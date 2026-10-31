@@ -4,6 +4,56 @@ You are viewing the HTML version of this resume. Download the PDF [here](Resume.
 
 :::::
 
+::::: {#cover-letter .page-section}
+
+::: {#resume-header .flex .row}
+
+:::: {.flex .row #name}
+
+![Face](src/face-transparent.png){#face .changing-color}
+
+::::: {}
+
+## Mike Lyons
+
+Engineering Leader
+
+:::::
+
+::::
+:::: {.flex .flex-column .filler #personal-info}
+
+**Email | ** mdl0394@gmail.com
+
+**City | ** San Francisco
+
+**Site | ** [https://MikeLyons.org/](https://MikeLyons.org/)
+
+**Github | ** [https://github.com/frenchie4111](https://github.com/frenchie4111)
+
+::::
+
+:::
+
+:::: { .flex .row }
+::::: {.right-column .bar-container}
+:::::: { .bar .changing-color }
+::::::
+:::::
+::::
+
+Physical Intelligence,
+
+My name is Mike. I'm a lifelong software engineer with a not-so-secret passion for hardware.
+
+I've spent a majority of my career working on the backend/firmware/ML systems that bring hardware to life. These days I am particularly excited about figuring out how to enable edge hardware to be as smart as our cloud software has gotten.
+
+I'm definitely a product-oriented engineer, so I am a great fit as π starts to offer its product to the world.
+
+Mike Lyons
+
+:::::
+
 :::::::::::: {#resume .page-section}
 
 ::: {#resume-header .flex .row}
@@ -56,7 +106,7 @@ Engineering Leader
 
 CTO / Co-Founder
 
-Canada | May 2025 - Present
+May 2025 - Present
 
 :::::: {.left-column-more}
 
@@ -65,8 +115,7 @@ Canada | May 2025 - Present
 :::::
 ::::: {.right-column}
 
-- Lead engineering as co-founder. Built a custom **agent harness and software factory** that writes and ships its own code, so 1 engineer and 2 operations staff run three mobile apps, a web app, and an in-house CRM.
-- Shipped an AI grant application system that lets any university student claim student aid from their phone, without ever opening the original application site. Over **3,000 students** have used it to claim more than **$4M in funding**.
+- Lead engineering as co-founder. Built a custom **agent harness and software factory** that writes and ships its own code. Built a company that helps students get grants. We helped >4,000 students earn more than $4m in grant funding.
 
 :::::
 ::::
@@ -78,7 +127,7 @@ Canada | May 2025 - Present
 
 CTO / Co-Founder
 
-San Francisco | Mar 2024 - May 2025
+Mar 2024 - May 2025
 
 :::::: {.left-column-more}
 
@@ -87,7 +136,7 @@ San Francisco | Mar 2024 - May 2025
 :::::
 ::::: {.right-column}
 
-- Co-founded a pre-seed startup and raised **$2.5M** to put LLMs to work in sectors that had barely been touched by them: commercial HVAC, fast-casual restaurants, and dental insurance. Led the technical work and ran customer discovery in each.
+- Co-founded a pre-seed startup and raised **$2.5M** with the goal of modernizing the HVAC controls industry by deploying AI/ML stacks on the edge
 
 :::::
 ::::
@@ -99,7 +148,7 @@ San Francisco | Mar 2024 - May 2025
 
 Head of Software, [Intercom](https://www.verkada.com/intercom/)
 
-San Francisco Bay Area | 2021 - Dec 2023
+2021 - Dec 2023
 
 :::::: {.left-column-more}
 
@@ -108,7 +157,8 @@ San Francisco Bay Area | 2021 - Dec 2023
 :::::
 ::::: {.right-column}
 
-- Hired, mentored, and led a team of **8 engineers** that launched Verkada's [Intercom product line](https://www.verkada.com/intercom/) on a tight deadline. Verkada's most successful product launch to date, at **$14M in year one**.
+- Built & Led the Software team **(8 engineers)** that shipped the [Intercom product line](https://www.verkada.com/intercom/). Required mastery of **cameras, WebRTC (audio/video)** and access control. Launched as Verkada's most successful new product line (9 months to ship, sold $14m in the first year)
+- Before that: Led the team to rebuild the Access Control product line's firmware/backend to shift **control logic & inference to the edge compute devices**
 
 :::::
 ::::
@@ -118,10 +168,11 @@ San Francisco Bay Area | 2021 - Dec 2023
 
 ## Dor Technologies
 
-Head of AI<br />
+Pre-Seed → Series A ([Exited](https://constellationnetwork.io/blog/2022-08-16-constellation-network-acquires-multimillion-dollar-saas-startup-dor-to-scale-blockchain-technology-to-more-than-2-000-retailers/))<br />
+Head of AI/ML<br />
 Cofounder
 
-San Francisco | 2015 - 2021
+2015 - 2021
 
 :::::: {.left-column-more}
 
@@ -130,8 +181,9 @@ San Francisco | 2015 - 2021
 :::::
 ::::: {.right-column}
 
-- Founding engineer, later hiring, mentoring, and leading the AI team as it grew to **10**. Shipped a battery-powered, neural-net-driven IoT device that tracks customer foot traffic across thousands of retail sites.
-- Built the data pipeline and fullstack analytics platform that processed millions of events from thousands of edge ML devices.
+- Founding engineer, later hiring, mentoring, and leading the **AI/ML team** as it grew to 10
+- Responsible for the **sensor-fusion based algorithms** that powered our battery-powered IoT device for tracking customer foot traffic
+- Built a **camera powered data collection device and the supporting data pipelines for labeling data & retraining models**
 
 :::::
 ::::
@@ -143,12 +195,12 @@ San Francisco | 2015 - 2021
 
 Software Engineer
 
-San Francisco | 2014 – 2015
+2014 – 2015
 
 :::::
 ::::: { .right-column }
 
-- Designed and built the backend infrastructure behind an AI-driven consumer hardware device.
+- Designed and built the backend infrastructure behind an **AI-driven consumer hardware device**.
 
 :::::
 ::::
@@ -160,12 +212,12 @@ San Francisco | 2014 – 2015
 
 Software Engineering Co-op
 
-Cupertino | 2013 - 2014
+2013 - 2014
 
 :::::
 ::::: { .right-column }
 
-- Built a fullstack JS application that turns hundreds of thousands of tickets into usable reports, and improved the scalability of the MDM product line.
+- Worked on the Mobile Device Management (MDM) protocol, the interface that millions of Apple customers use to manage fleets of Apple devices
 
 :::::
 ::::

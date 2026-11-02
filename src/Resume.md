@@ -16,7 +16,7 @@ You are viewing the HTML version of this resume. Download the PDF [here](Resume.
 
 ## Mike Lyons
 
-Founding Engineer · Startup CTO
+Engineering Leader
 
 :::::
 

@@ -37,7 +37,7 @@ Engineering Leader
 
 ::: {.pitch-row}
 
-AI × firmware × software. I build products people love, and I'm looking to push what hardware can do.
+I build the backend systems that power smart products, and I've owned them from 0 → 1 and 1 → 10. I love building things people love.
 
 :::
 
@@ -71,7 +71,8 @@ May 2025 - Present
 :::::
 ::::: {.right-column}
 
-- Lead engineering as co-founder. Built a custom **agent harness and software factory** that writes and ships its own code. Built a company that helps students get grants. We helped >4,000 students earn more than $4m in grant funding.
+- Lead engineering as co-founder. Designed and built a custom **agent harness and software factory** that writes and ships its own code, so **1 engineer** and 2 operations staff run **three mobile apps, a web app, and an in-house CRM**.
+- Shipped an AI grant application system that lets any university student claim student aid from their phone. Over **4,000 students** have used it to claim more than **$4M in funding**.
 
 :::::
 ::::
@@ -92,7 +93,7 @@ Mar 2024 - May 2025
 :::::
 ::::: {.right-column}
 
-- Co-founded a pre-seed startup and raised **$2.5M** with the goal of modernizing the HVAC controls industry by deploying AI/ML stacks on the edge
+- Co-founded a pre-seed startup and raised **$2.5M** to bring AI/ML to commercial HVAC controls. Led all technical work and customer discovery.
 
 :::::
 ::::
@@ -113,8 +114,8 @@ Head of Software, [Intercom](https://www.verkada.com/intercom/)
 :::::
 ::::: {.right-column}
 
-- Built & Led the Software team **(8 engineers)** that shipped the [Intercom product line](https://www.verkada.com/intercom/). Required mastery of **cameras, WebRTC (audio/video)** and access control. Launched as Verkada's most successful new product line (9 months to ship, sold $14m in the first year)
-- Before that: Led the team to rebuild the Access Control product line's firmware/backend to shift **control logic & inference to the edge compute devices**
+- Built and led the **8-engineer** software team that shipped the [Intercom product line](https://www.verkada.com/intercom/): **WebRTC audio/video** and access-control integration. Shipped in 9 months as Verkada's most successful new product launch, with **$14M in year one**.
+- Before that: led the **re-architecture of the Access Control backend and firmware**, moving control logic and inference onto edge devices. The **Go rewrite** shipped to **thousands of live devices** and unblocked the next **4 Access product releases**.
 
 :::::
 ::::
@@ -126,6 +127,7 @@ Head of Software, [Intercom](https://www.verkada.com/intercom/)
 
 Pre-Seed → Series A ([Exited](https://constellationnetwork.io/blog/2022-08-16-constellation-network-acquires-multimillion-dollar-saas-startup-dor-to-scale-blockchain-technology-to-more-than-2-000-retailers/))<br />
 Head of AI/ML<br />
+Lead Systems Architect<br />
 Cofounder
 
 2015 - 2021
@@ -137,9 +139,9 @@ Cofounder
 :::::
 ::::: {.right-column}
 
-- Founding engineer, later hiring, mentoring, and leading the **AI/ML team** as it grew to 10
-- Responsible for the **sensor-fusion based algorithms** that powered our battery-powered IoT device for tracking customer foot traffic
-- Built a **camera powered data collection device and the supporting data pipelines for labeling data & retraining models**
+- Built the **data pipeline and fullstack analytics platform** that processed **millions of events from thousands of edge ML devices** and powered Dor's customer analytics.
+- Founding engineer through Series A and exit. Later hired, mentored, and led the AI/ML team as it grew to **10**.
+- Built the data collection and labeling pipelines used to retrain production models.
 
 :::::
 ::::
@@ -156,7 +158,7 @@ Software Engineer
 :::::
 ::::: { .right-column }
 
-- Designed and built the backend infrastructure behind an **AI-driven consumer hardware device**.
+- Designed and built the **backend infrastructure** behind an AI-driven consumer hardware device.
 
 :::::
 ::::
@@ -173,7 +175,7 @@ Software Engineering Co-op
 :::::
 ::::: { .right-column }
 
-- Worked on the Mobile Device Management (MDM) protocol, the interface that millions of Apple customers use to manage fleets of Apple devices
+- Improved the scalability of the MDM product line, and built a fullstack JS application that turns hundreds of thousands of tickets into usable reports.
 
 :::::
 ::::
